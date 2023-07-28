@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:andesite_ruins",
+      "damaged": "lostruins:andesite_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:beige_tile_ruins_ruins",
+      "damaged": "lostruins:andesite_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:andesite_ruins",
+      "damaged": "lostruins:andesite_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:andesite_ruins",
+      "damaged": "lostruins:andesite_rubble"
+    }
+  ]
+}

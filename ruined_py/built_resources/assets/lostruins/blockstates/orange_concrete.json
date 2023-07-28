@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/orange_concrete",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/orange_concrete_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_cracked5",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/orange_concrete_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

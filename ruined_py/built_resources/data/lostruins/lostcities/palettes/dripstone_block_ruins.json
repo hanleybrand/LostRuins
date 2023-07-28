@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:dripstone_block_ruins",
+      "damaged": "lostruins:dripstone_block_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:light_blue_concrete_ruins_ruins",
+      "damaged": "lostruins:dripstone_block_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:dripstone_block_ruins",
+      "damaged": "lostruins:dripstone_block_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:dripstone_block_ruins",
+      "damaged": "lostruins:dripstone_block_rubble"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/white_granite",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/white_granite_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_cracked5",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/white_granite_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

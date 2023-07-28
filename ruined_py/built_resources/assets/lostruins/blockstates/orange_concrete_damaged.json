@@ -1,0 +1,35 @@
+
+{
+"variants": {
+    "": [
+      {
+        "model": "lostruins:block/orange_concrete_damaged",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_damaged",
+        "y": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_damaged1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_damaged1",
+        "y": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_damaged2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/orange_concrete_damaged2",
+        "y": 180,
+        "weight": 150
+      }
+    ]
+}
+}
+

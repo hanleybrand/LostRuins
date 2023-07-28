@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/deepslate",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/deepslate5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/deepslate_cracked",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked1",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked1",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked2",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked2",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked3",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked3",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked4",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked4",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked5",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_cracked5",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/deepslate_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:cobblestone_ruins",
+      "damaged": "lostruins:cobblestone_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:light_gray_concrete_ruins_ruins",
+      "damaged": "lostruins:cobblestone_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:cobblestone_ruins",
+      "damaged": "lostruins:cobblestone_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:cobblestone_ruins",
+      "damaged": "lostruins:cobblestone_rubble"
+    }
+  ]
+}

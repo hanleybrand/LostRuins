@@ -1,0 +1,24 @@
+{
+  "blocks": [
+    {
+      "random": 2,
+      "block": "lostruins:glassgray3x2_pane_broken"
+    },
+    {
+      "random": 2,
+      "block": "lostruins:glassgray3x2_pane_broken_mossy"
+    },
+    {
+      "random": 2,
+      "block": "lostruins:glassgray3x2_pane_mossy"
+    },
+    {
+      "random": 2,
+      "block": "lostruins:glassgray3x2_pane_vines"
+    },
+    {
+      "random": 1000,
+      "block": "lostruins:glassgray3x2_pane_complete"
+    }
+  ]
+}

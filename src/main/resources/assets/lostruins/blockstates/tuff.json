@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/tuff",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/tuff_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_cracked5",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/tuff_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/tuff_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

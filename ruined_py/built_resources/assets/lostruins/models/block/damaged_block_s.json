@@ -1,0 +1,52 @@
+{
+	"credit": "Made by Hanleybrand with Blockbench",
+	"parent": "block/cube_all",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "lostruins:block/concretes/white_concrete",
+		"particle": "lostruins:block/concretes/white_concrete"
+	},
+	"elements": [
+		{
+			"name": "s",
+			"from": [4, 0, 12],
+			"to": [8, 9.75, 16],
+			"faces": {
+				"north": {"uv": [8, 6.25, 12, 16], "texture": "#0"},
+				"east": {"uv": [0, 6.25, 4, 16], "texture": "#0"},
+				"south": {"uv": [4, 6.25, 8, 16], "texture": "#0"},
+				"west": {"uv": [12, 6.25, 16, 16], "texture": "#0"},
+				"up": {"uv": [4, 12, 8, 16], "texture": "#0"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "s",
+			"from": [8, 0, 12],
+			"to": [12, 9.25, 16],
+			"faces": {
+				"north": {"uv": [4, 6.75, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 6.75, 4, 16], "texture": "#0"},
+				"south": {"uv": [8, 6.75, 12, 16], "texture": "#0"},
+				"west": {"uv": [12, 6.75, 16, 16], "texture": "#0"},
+				"up": {"uv": [8, 12, 12, 16], "texture": "#0"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "block",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "south",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

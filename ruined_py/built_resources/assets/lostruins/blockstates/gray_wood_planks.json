@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/gray_wood_planks",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_cracked5",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

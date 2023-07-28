@@ -1,0 +1,35 @@
+
+{
+"variants": {
+    "": [
+      {
+        "model": "lostruins:block/dripstone_block_damaged",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/dripstone_block_damaged",
+        "y": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/dripstone_block_damaged1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/dripstone_block_damaged1",
+        "y": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/dripstone_block_damaged2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/dripstone_block_damaged2",
+        "y": 180,
+        "weight": 150
+      }
+    ]
+}
+}
+

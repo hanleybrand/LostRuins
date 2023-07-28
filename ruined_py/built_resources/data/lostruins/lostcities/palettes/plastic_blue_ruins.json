@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:plastic_blue_ruins",
+      "damaged": "lostruins:plastic_blue_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:beige_tile_ruins_ruins",
+      "damaged": "lostruins:plastic_blue_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:plastic_blue_ruins",
+      "damaged": "lostruins:plastic_blue_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:plastic_blue_ruins",
+      "damaged": "lostruins:plastic_blue_rubble"
+    }
+  ]
+}

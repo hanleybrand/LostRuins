@@ -1,0 +1,32 @@
+{
+	"credit": "Made by Hanleybrand with Blockbench",
+	"parent": "block/cube_all",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "lostruins:block/concretes/white_concrete",
+		"particle": "lostruins:block/concretes/white_concrete"
+	},
+	"elements": [
+		{
+			"name": "se",
+			"from": [12, 0, 12],
+			"to": [16, 6.5, 16],
+			"faces": {
+				"north": {"uv": [0, 9.5, 4, 16], "texture": "#0"},
+				"east": {"uv": [0, 9.5, 4, 16], "texture": "#0"},
+				"south": {"uv": [12, 9.5, 16, 16], "texture": "#0"},
+				"west": {"uv": [12, 9.5, 16, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [12, 0, 16, 4], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "block",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

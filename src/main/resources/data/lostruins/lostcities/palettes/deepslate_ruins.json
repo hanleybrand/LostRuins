@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:deepslate_ruins",
+      "damaged": "lostruins:deepslate_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:white_granite_pillar_ruins_ruins",
+      "damaged": "lostruins:deepslate_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:deepslate_ruins",
+      "damaged": "lostruins:deepslate_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:deepslate_ruins",
+      "damaged": "lostruins:deepslate_rubble"
+    }
+  ]
+}

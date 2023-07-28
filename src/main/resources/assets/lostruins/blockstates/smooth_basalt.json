@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/smooth_basalt",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/smooth_basalt_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_cracked5",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/smooth_basalt_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

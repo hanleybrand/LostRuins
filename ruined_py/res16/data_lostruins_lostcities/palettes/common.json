@@ -1,0 +1,364 @@
+{
+  "palette": [
+    {
+      "char": "1",
+      "block": "minecraft:spawner",
+      "mob": "easymobs"
+    },
+    {
+      "char": "4",
+      "block": "minecraft:spawner",
+      "mob": "hardmobs"
+    },
+    {
+      "char": "T",
+      "block": "minecraft:wall_torch[facing=north]",
+      "torch": true
+    },
+    {
+      "__comment__": "this replaces glowstone throughout worldgen",
+      "char": "h",
+      "block": "horror_elements_mod:flashing_lamp_1"
+    },
+    {
+      "__comment__": "this is an extra horror lamp to throw in Ⓛ",
+      "char": "Ⓛ",
+      "block": "horror_elements_mod:flashing_lamp_1"
+    },
+    {
+      "char": "g",
+      "block": "minecraft:redstone_torch[lit=true]"
+    },
+    {
+      "char": "9",
+      "blocks": [
+        {
+          "random": 32,
+          "block": "minecraft:cyan_concrete"
+        },
+        {
+          "random": 32,
+          "block": "minecraft:light_gray_concrete"
+        },
+        {
+          "random": 32,
+          "block": "minecraft:cyan_concrete"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:gray_concrete"
+        }
+      ]
+    },
+    {
+      "char": "Y",
+      "block": "minecraft:white_stained_glass"
+    },
+    {
+      "char": "Z",
+      "blocks": [
+        {
+          "random": 32,
+          "block": "minecraft:glass"
+        },
+        {
+          "random": 32,
+          "block": "minecraft:gray_stained_glass"
+        },
+        {
+          "random": 32,
+          "block": "quark:dirty_glass"
+        },
+        {
+          "random": 1000,
+          "block": "quark:dirty_glass"
+        }
+      ]
+    },
+    {
+      "char": "p",
+      "blocks": [
+        {
+          "random": 30,
+          "block": "minecraft:poppy"
+        },
+        {
+          "random": 30,
+          "block": "minecraft:dandelion"
+        },
+        {
+          "random": 15,
+          "block": "minecraft:oak_sapling[stage=1]"
+        },
+        {
+          "random": 15,
+          "block": "minecraft:spruce_sapling[stage=1]"
+        },
+        {
+          "random": 15,
+          "block": "minecraft:birch_sapling[stage=1]"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:acacia_sapling[stage=1]"
+        }
+      ]
+    },
+    {
+      "char": "K",
+      "blocks": [
+        {
+          "random": 64,
+          "block": "minecraft:poppy"
+        },
+        {
+          "random": 12,
+          "block": "horror_elements_mod:slicedbody"
+        },
+        {
+          "random": 12,
+          "block": "horror_elements_mod:cadaver"
+        },
+        {
+          "random": 256,
+          "block": "minecraft:dandelion"
+        }
+      ]
+    },
+    {
+      "char": "!",
+      "blocks": [
+        {
+          "random": 15,
+          "block": "minecraft:diamond_block"
+        },
+        {
+          "random": 20,
+          "block": "minecraft:gold_block"
+        },
+        {
+          "random": 15,
+          "block": "minecraft:emerald_block"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:iron_block"
+        }
+      ]
+    },
+    {
+      "char": "F",
+      "blocks": [
+        {
+          "random": 25,
+          "block": "minecraft:furnace[facing=north]"
+        },
+        {
+          "random": 20,
+          "block": "minecraft:crafting_table"
+        },
+        {
+          "random": 3,
+          "block": "minecraft:brewing_stand"
+        },
+        {
+          "random": 6,
+          "block": "minecraft:anvil[facing=north]"
+        },
+        {
+          "random": 15,
+          "block": "cgm:workbench"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:cobweb"
+        }
+      ]
+    },
+    {
+      "__comment__": "pill bottles drop medicine - less than 50% chance for each placement",
+      "char": "Ü",
+      "blocks": [
+        {
+          "random": 24,
+          "block": "moa_decor_science:frascodepildoras"
+        },
+        {
+          "random": 8,
+          "block": "moa_decor_science:frascodepildorasabierto"
+        },
+        {
+          "random": 128,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "__comment__": "med kits drop medical supplies - less than 50% chance for each placement",
+      "char": "Ä",
+      "blocks": [
+        {
+          "random": 36,
+          "block": "moa_decor_science:botiquindepared"
+        },
+        {
+          "random": 128,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "__comment__": "random body from horrorelements ⽍ = KangXi Radical Death",
+      "char": "⽍",
+      "blocks": [
+        {
+          "random": 2,
+          "block": "horror_elements_mod:slicedbody[facing=north]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:slicedbody[facing=east]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:slicedbody[facing=west]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:slicedbody[facing=south]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:cadaver[facing=north]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:cadaver[facing=east]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:cadaver[facing=west]"
+        },
+        {
+          "random": 2,
+          "block": "horror_elements_mod:cadaver[facing=south]"
+        },
+        {
+          "random": 128,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "char": "!",
+      "blocks": [
+        {
+          "random": 15,
+          "block": "minecraft:diamond_block"
+        },
+        {
+          "random": 20,
+          "block": "minecraft:gold_block"
+        },
+        {
+          "random": 15,
+          "block": "minecraft:emerald_block"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:iron_block"
+        }
+      ]
+    },
+    {
+      "char": "F",
+      "__comment__": "handles cobweb or furniture 69:128 chance for furniture",
+      "__comment2__": "removed enchanting table, added gun workbench",
+      "blocks": [
+        {
+          "random": 25,
+          "block": "minecraft:furnace[facing=north]"
+        },
+        {
+          "random": 20,
+          "block": "minecraft:crafting_table"
+        },
+        {
+          "random": 3,
+          "block": "minecraft:brewing_stand"
+        },
+        {
+          "random": 6,
+          "block": "minecraft:anvil[facing=north]"
+        },
+        {
+          "random": 15,
+          "block": "cgm:workbench"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:cobweb"
+        }
+      ]
+    },
+    {
+      "char": "%",
+      "__comment__": "handles random cobwebs or air 40:128 chance for cobweb",
+      "blocks": [
+        {
+          "random": 40,
+          "block": "minecraft:cobweb"
+        },
+        {
+          "random": 1000,
+          "block": "minecraft:air"
+        }
+      ]
+    },
+    {
+      "char": "*",
+      "block": "minecraft:potted_cactus"
+    },
+    {
+      "char": "l",
+      "block": "minecraft:ladder[facing=north]"
+    },
+    {
+      "char": "-",
+      "block": "minecraft:oak_pressure_plate"
+    },
+    {
+      "char": ".",
+      "block": "minecraft:oak_fence"
+    },
+    {
+      "char": "L",
+      "block": "minecraft:bookshelf"
+    },
+    {
+      "char": "W",
+      "block": "minecraft:water"
+    },
+    {
+      "char": "C",
+      "block": "minecraft:chest[facing=north]",
+      "loot": "chestloot"
+    },
+    {
+      "char": "G",
+      "block": "minecraft:grass_block"
+    },
+    {
+      "char": "D",
+      "block": "minecraft:dirt"
+    },
+    {
+      "char": " ",
+      "block": "minecraft:air"
+    },
+    {
+      "char": "~",
+      "block": "minecraft:command_block"
+    }
+  ]
+}

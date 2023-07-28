@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:white_granite_ruins",
+      "damaged": "lostruins:white_granite_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:smooth_basalt_ruins_ruins",
+      "damaged": "lostruins:white_granite_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:white_granite_ruins",
+      "damaged": "lostruins:white_granite_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:white_granite_ruins",
+      "damaged": "lostruins:white_granite_rubble"
+    }
+  ]
+}

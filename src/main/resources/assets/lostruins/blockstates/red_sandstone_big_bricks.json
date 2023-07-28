@@ -1,0 +1,102 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks5",
+        "weight": 150
+      },
+   
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped1",
+        "y": 90,
+        "uvlock" : "true",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped1",
+        "y": 180,
+        "uvlock" : "true",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped1",
+        "y": 270,
+        "uvlock" : "true",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped2",
+        "y": 90,
+        "uvlock" : "true",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped2",
+        "y": 180,
+        "uvlock" : "true",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/red_sandstone_big_bricks_chipped2",
+        "y": 270,
+        "uvlock" : "true",
+        "weight": 30
+      }
+    ]
+  }
+}
+

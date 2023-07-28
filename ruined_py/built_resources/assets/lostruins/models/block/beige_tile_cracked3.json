@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lostruins:block/etc/beige_tile3"
+  }
+}

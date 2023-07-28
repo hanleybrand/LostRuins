@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked1",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked1",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked2",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked2",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked3",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked3",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked4",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked4",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked5",
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_cracked5",
+        "x": 180,
+        "weight": 40
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/gray_wood_planks_nailed_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

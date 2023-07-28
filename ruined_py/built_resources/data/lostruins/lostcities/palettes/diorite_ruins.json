@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:diorite_ruins",
+      "damaged": "lostruins:diorite_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:blue_tile_ruins_ruins",
+      "damaged": "lostruins:diorite_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:diorite_ruins",
+      "damaged": "lostruins:diorite_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:diorite_ruins",
+      "damaged": "lostruins:diorite_rubble"
+    }
+  ]
+}

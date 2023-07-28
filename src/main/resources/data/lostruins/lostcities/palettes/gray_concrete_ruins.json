@@ -1,0 +1,24 @@
+{
+  "palette": [
+    {
+      "char": "X",
+      "block": "lostruins:gray_concrete_ruins",
+      "damaged": "lostruins:gray_concrete_rubble"
+    },
+    {
+      "char": "$",
+      "block": "lostruins:beige_tile_2_ruins_ruins",
+      "damaged": "lostruins:gray_concrete_rubble"
+    },
+    {
+      "char": "#",
+      "block": "lostruins:gray_concrete_ruins",
+      "damaged": "lostruins:gray_concrete_rubble"
+    },
+    {
+      "char": "}",
+      "block": "lostruins:gray_concrete_ruins",
+      "damaged": "lostruins:gray_concrete_rubble"
+    }
+  ]
+}
