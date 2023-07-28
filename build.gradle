@@ -33,8 +33,14 @@ repos()
 runs('lostruins')
 jars('lostruins')
 
+// changed resource handling so that non-generated resources (src/main/resources) will override generated ones
+// for cases where new blocks are being added or otherwise aren't handled by datagen (e.g. the _ruins blocktype)
+tasks.withType(Copy).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
 sourceSets.main.resources {
-    srcDir 'src/generated/resources'
+    srcDirs 'src/generated/resources', 'src/main/resources'
 }
 
 dependencies {
