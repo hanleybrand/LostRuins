@@ -1,0 +1,155 @@
+
+{
+  "variants": {
+    "": [
+    
+      {
+        "model": "lostruins:block/old_stone",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone5",
+        "x": 180,
+        "weight": 150
+      },      
+      {
+        "model": "lostruins:block/old_stone_cracked",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked1",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked1",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked2",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked2",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked3",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked3",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked4",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked4",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked5",
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_cracked5",
+        "x": 180,
+        "weight": 150
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped1",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped1",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped1",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped1",
+        "y": 270,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped2",
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped2",
+        "y": 90,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped2",
+        "y": 180,
+        "weight": 30
+      },
+      {
+        "model": "lostruins:block/old_stone_chipped2",
+        "y": 270,
+        "weight": 30
+      }
+    ]
+  }
+}
+

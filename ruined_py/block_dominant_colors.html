@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #ipyplot-imgs-container-div-PfpvFoobuLVwchgPVGPYxD {
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            overflow: auto;
+            position: relative;
+            overflow-y: scroll;
+        }
+
+        div.ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD {
+            width: 150px;
+            display: inline-block;
+            margin: 3px;
+            position: relative;
+        }
+
+        div.ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD {
+            width: 150px;
+            background: white;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            position: relative;
+            border: 2px solid #ddd;
+            top: 0;
+            left: 0;
+        }
+
+        div.ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD span.ipyplot-img-close {
+            display: none;
+        }
+
+        div.ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD span {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        div.ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD img {
+            width: 150px;
+        }
+
+        /*div.ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD span.ipyplot-img-close:hover {*/
+        /*    cursor: zoom-out;*/
+        /*}*/
+
+        /*div.ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD span.ipyplot-img-expand:hover {*/
+        /*    cursor: zoom-in;*/
+        /*}*/
+
+        /*div[id^=ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD]:target {*/
+        /*    transform: scale(2.5);*/
+        /*    transform-origin: left top;*/
+        /*    z-index: 5000;*/
+        /*    top: 0;*/
+        /*    left: 0;*/
+        /*    position: absolute;*/
+        /*}*/
+
+        /*div[id^=ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD]:target span.ipyplot-img-close {*/
+        /*    display: block;*/
+        /*}*/
+
+        /*div[id^=ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD]:target span.ipyplot-img-expand {*/
+        /*    display: none;*/
+        /*}*/
+    </style>
+    <title>Title</title>
+</head>
+<body>
+
+<div id="ipyplot-imgs-container-div-PfpvFoobuLVwchgPVGPYxD">
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-VhxY9MLepRao3wce8AKstT"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">andesite<br>rgb(89, 93, 84)<br>595d54</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABlUlEQVR4nJ1UTZebMAwcjOQlJinsH+yxr/++GIPjYEF6ENB0T+vowOPJ1ow1+qh+/f4Z7wmHZZHWuTnGruvVkx6pYQKg19ZtQ4lRvCd3aYYx9P2nurwfmCjOk7V2WRYAYgzVJosAMMaUEQDwYbLMcZ4AGKKu6+M8uUsDYAFce9U8mMhdmjDHMgKNBzAMfyzzJuLTgEOQLKLEbxudj+1/3FSueE+qhvpPi/f0Wq3vEmhkFmH6V8nWOWK7487TknNVVXqh1AwA1141OIsYItdeZdsAEJOeKvqXhL6bgbs0dW00uGYbxjHKBEC/qtWeSrk+AMiHCYBmsIzBMuNFfVk37VStzTsECq295A6vjoL+7+Uxe7+FMJYRnOivoM/nc8lLVZlznk/i4kHLItgEQHe71mzX/L8gm5waWmuZqHRVGAA+TPGehjGEcfwidM22u+2TSEcvlGXQdX16pOaj0QJ4P/gwnYVZ1w2GVKj3RpokL81Ho8HalCe6EuPYIm+gA6A5RqZdd3Vpa3o/AHikxESW+TwtXXZ/AU1k8/udEcCVAAAAAElFTkSuQmCC"/>
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-fVvXgoPWs2BwaB8ai4gUfQ"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">basalt_side<br>rgb(58, 60, 64)<br>3a3c40</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACGklEQVR4nJ1US7KbMBBsiRFGhmekMnaSaySL3P86Ly4+5iNhRigL5WWPZ6nq6q7pnpb4+eu3zCS+hpmLQj+ffV1bAKv3GRERAZjG8VSc8vyEIyPLqlQqZ2alcqVyrc/eu0zStr2cW8qqjHGPMQKoPqplmQ+xA6C+68POiRGAEFLrM1E2T7MU0jmnVJ422/f92/cfq1+PCSilGnsbun6eZ8oIQEYZgMABQBaz/1AhMHR9ofUxgbIqh66vrUGHsipJqcfnn7RTc7955xNu9X7bNmNNCPsxgb7rjTVd2wYOzjk4Z6zJiJ794J1PvBzYGFNWpXPucMjGGuaQ7oSZhZDMYZ5mACmV5n4TAtu2MYejAQAg5iClVCr/uFyewxDjPo0jAGNNkuzaNkGncXzHIucWAES0ba9lWbIss9aSUsn9GBE4XK/NPM3Gmjcs+leidIu62GtrvPPjOKZ3AGFn5xyAeZpPRXGIHYBc/ZrYU60en3+S9cyc2lectFJ5bU1tzTB0RwWo+qhW7wFofd73qJTaw671Ocms3p+Kk3PLtr2I1PXavJGB01oT0ePxSEVr7reh69MHJaQARIIKIZiDEOKQgNT6zByYgy50c7+Fnbu2LasyWRf3uHqv9VmpfNteaa1jAjFGIprGsazKrm3r2qTGNffbNI0Aamv6vnuDOg157wKHS31hDlqf8fUXdW1bVdUw9PIpm6Z574QA/AW6yVMskE+beAAAAABJRU5ErkJggg=="/>
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-8v3FcWxJuFSbo9no29uemw"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">basalt_top<br>rgb(58, 60, 64)<br>3a3c40</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACGklEQVR4nJ1US7KbMBBsiRFGhmekMnaSaySL3P86Ly4+5iNhRigL5WWPZ6nq6q7pnpb4+eu3zCS+hpmLQj+ffV1bAKv3GRERAZjG8VSc8vyEIyPLqlQqZ2alcqVyrc/eu0zStr2cW8qqjHGPMQKoPqplmQ+xA6C+68POiRGAEFLrM1E2T7MU0jmnVJ422/f92/cfq1+PCSilGnsbun6eZ8oIQEYZgMABQBaz/1AhMHR9ofUxgbIqh66vrUGHsipJqcfnn7RTc7955xNu9X7bNmNNCPsxgb7rjTVd2wYOzjk4Z6zJiJ794J1PvBzYGFNWpXPucMjGGuaQ7oSZhZDMYZ5mACmV5n4TAtu2MYejAQAg5iClVCr/uFyewxDjPo0jAGNNkuzaNkGncXzHIucWAES0ba9lWbIss9aSUsn9GBE4XK/NPM3Gmjcs+leidIu62GtrvPPjOKZ3AGFn5xyAeZpPRXGIHYBc/ZrYU60en3+S9cyc2lectFJ5bU1tzTB0RwWo+qhW7wFofd73qJTaw671Ocms3p+Kk3PLtr2I1PXavJGB01oT0ePxSEVr7reh69MHJaQARIIKIZiDEOKQgNT6zByYgy50c7+Fnbu2LasyWRf3uHqv9VmpfNteaa1jAjFGIprGsazKrm3r2qTGNffbNI0Aamv6vnuDOg157wKHS31hDlqf8fUXdW1bVdUw9PIpm6Z574QA/AW6yVMskE+beAAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-6oWpmNas8k8MnubP6WwGMd"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">black_concrete<br>rgb(67, 64, 64)<br>434040</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABMUlEQVR4nJ1USZLEIAyTBB/rmv//CFtzUKC6j4RTKgmytdj8+3wk2W57SLYB2JYEoLsldTdJ2yDRjZujwAEQWVX+/Uwy6HnmFTYAYOZWSKRrkLC7Ow8kQRKwnVbuGLR9bp77qUTgadqOVrjnIJGUuvtIoV+Uo09VvZBIaVAS+Yjc3UEMIZKSDOSf2wIzagSrfxMSuOoWCRu75B2D5OQnnSSAMcbzhjwm9WVGAWitRTKNzTkBRAUnPwElzzTcFpjaw/VQAQgYqCoch4G2Y0atdccgoEmO7SEhwpHYI4JtUr2QKA2eFCWvD+7WvbtjCd6ZbGCtFYmfMrZtho10TH7hgbj3wQn+WRXH7W+V3hSIPlGmqjJ3aZxkZZUC3n5cnensNcDAHENSVX1nVGd/kInW1fkHDB/462BjoGgAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-Smv2HfBfocuVCxbyvSnePo"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">blackstone<br>rgb(52, 52, 60)<br>34343c</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABeUlEQVR4nJ1UQXblIAxTiExJTtTl3P8+E6hRSBdO0z+z43uRlwfGAklPy+fnn66On9JQyVvzWsp+r0iWVgDRtmDBTKWubjSpM2fmXMrevDJR7hiX3DHG9YOtoanpAAigeiVN7gCQUim73I12d+QMoEtMNJo0h0HmTGQA7fhLGsZo7QAA3beGz176X4DnslvZgy4IQYXRDPa0dvWuPqsB46SGmO5/ACVvSMtNvbvUkZZomK0EgDnHYQ0hJeascQJYV4vdmP6oMvcCo6V1XWgAPmz7qjXUlrvgr7Z5dfMEQPUKx/2CdpAG4NdCMKnHypsAMTq8GF8AtR0P4yHPlZbYPX0O5nd6exmKcQkdWErZw8RRrR2W5pSghmwYgC1vyTj6bdA7GMZVvQJgImlvGCkBqF67em3HV63/EZ2MW97if3nRZuIFpeySSD5EyfUIc54n0hLB190xH3bEuEje1hwC8EwPYDwp8lYxshMvwXABUo9EkjzYf8iZDbtvx//ozWtHMO4AAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-WBNyeTPAeUD7QmLUgLusLt"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">blackstone_top<br>rgb(52, 52, 60)<br>34343c</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABeUlEQVR4nJ1UQXblIAxTiExJTtTl3P8+E6hRSBdO0z+z43uRlwfGAklPy+fnn66On9JQyVvzWsp+r0iWVgDRtmDBTKWubjSpM2fmXMrevDJR7hiX3DHG9YOtoanpAAigeiVN7gCQUim73I12d+QMoEtMNJo0h0HmTGQA7fhLGsZo7QAA3beGz176X4DnslvZgy4IQYXRDPa0dvWuPqsB46SGmO5/ACVvSMtNvbvUkZZomK0EgDnHYQ0hJeascQJYV4vdmP6oMvcCo6V1XWgAPmz7qjXUlrvgr7Z5dfMEQPUKx/2CdpAG4NdCMKnHypsAMTq8GF8AtR0P4yHPlZbYPX0O5nd6exmKcQkdWErZw8RRrR2W5pSghmwYgC1vyTj6bdA7GMZVvQJgImlvGCkBqF67em3HV63/EZ2MW97if3nRZuIFpeySSD5EyfUIc54n0hLB190xH3bEuEje1hwC8EwPYDwp8lYxshMvwXABUo9EkjzYf8iZDbtvx//ozWtHMO4AAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-UsHcmQYMMz4junNa9DDUAX"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">blue_concrete<br>rgb(85, 94, 151)<br>555e97</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABVUlEQVR4nJ2US5LcQAhEXybyDb30uXzZaUgvUPXM0uqKUOhPFo8E/f7z1xZoZqpqZpIAVQV0d5W6x/JkQLJ4srynZCS9Xi/AukPMjKTu2IVk2Q+jA7YNqrokJEkEIN0NJJGA7DEzjwWWSRLQRgSqasUkEpJl5f3m0bo20O7XNsT2ioJAtpIpq3uk54gkQFXen3ezP+PYth0Q8gcCdklaMgcXM7EF2eQSiICZfJLB25oc+kkkS05iQbLV/qTIX1+vU8lcVyWT5LAOqPvW7p5PEElKkGSre/YamJnuIbHuJ5Lquh4LLBz7ALHvW2IZ5LpyEK3ZHgtsiy2Zux7J6gmme2bpsR33TKCqErpfydh3e83M3QEgG5iJ9uVTgbXI8cw9FLYbYDObd1WeRgesM8JmOjPr+irbPtZ8mwq7ngpcSTITRHT9urq/R5PkHajHRHT3mb//u/4BQkoZcVpNr7wAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-f69b6JJtCpwU82Zv8J2Ny9"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">blue_tile<br>rgb(12, 33, 34)<br>0c2122</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACKUlEQVR4nJWUQbYbOwhEAYGQ1G07701+ZjnZ/8oyjO3jbgmBMvgraBZQ91QVgPl+m8KREidubQdYSISAo3dAsjlyzv04YkX4TLHq4wuuDK/9htMQVi11AVQtEQ6YKCVhfj6fnDiEKaXz719p9ZI6ABBCRERiCVg2zeYklpzFPTxCS0HCGZ6YV85+VR6AKPGP7x/MoqpFFQlXhIcjQs4yzVRVJLPIwrXVdhWA26/fAEs0IxIAJULJ6isgloiYjTGMMHofAAuBAC86mG6lVpuz1ZqzaG1Z8tYai9RaCKnVNsa83+9rAaWL8gCUiG1OSfx8vZgZAMytnx1hRaxSVIRLLbGCOHlcboEQIUtGxMfjsRYgIBPv+45EidN0XwB9nJwzAXx/XdtRAKAZcfaj1Pr5fMwGQkyfx3m4++jdbJrPFdCPYyE8X++rAC5Fq5Zp1lp1h8QSZrW03k9VdY9S8hwlFzUzIryaEbZfv4mQJU+31m6jd83ZfO6tucfnPIioH5+s+Tg+sDCldAlALGnbms0hIrDWtrXa2vfX93GcuRZYqxRNkljEPbToRQOA6ed/RMRZCCixUKLwSClNnzlLP8+1wN3cw6xrziLXvgW7z1p3m84qRMTMkKDtrR8nUUJAInq9n/d9/7zfa62rDljPsw+bqj4t57oAIvzz583MCNDHUNX+elvvcJzOiW/XUqKRVR4PEa51i3AEiOm3+w0R/78sVdWtaSkYIdc7+Ac7/jH7To26/AAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-82Jqr3to5Zs5nf8nSCSsvb"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">bone_tile<br>rgb(173, 166, 152)<br>ada698</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABd0lEQVR4nJ2UwU7DMAyGbdfJypgmOHBh7MIelWfgyJshkNCAGwJG1aVdbA7uTGFIKPjkpsn/xX+c4M311WK5SqmdzeYAoKrwPVQVEZtmU9fT9cPtyekZlASfX1wiIgD0fQ8AiCgiiGiDqkpEOWcAEJHFctV8vJcBum5rWUqtyXkRBvPcZ5YBZrN5zrltm77rYG8REcHeHEtCjDHWIYS315cygKqaqKqKiiUKX4OIyBU7tbgCAyAiEUmWbtt6HYioqvX02Kb6VsoARCQiIuKLuz65OTFMVHV8EqUAsvVEZIsH0mCSjtWdWgywbrEWMtKP/jGv4Ldb8mcMFll3Kqh7RVU1bGGPLJUeAGMfrJrAEUZ221/7/EcjsesSUd7lydEUDuw2i8a+lQFcK3Bwlw9vdan0AGiajWUVs6v4c+QHLiIptSmVA2KsETGltq6n3qm2d38nACClNsZaVXd9XwSgp/XdgGImImZm5hACM1f7YGab8/x4X1rBJ7KOH+g9J+t3AAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-m6ZXcZ9VQdSZxRks5FK7ej"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">bone_tile_2<br>rgb(173, 166, 152)<br>ada698</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABeElEQVR4nJ1UwU7DMAy1PSdko5rgwIWxC/tUvoEjf4ZAQgNuCBglTbvEHNx5QztlPrlp8p79/BJ8uL9bLFcpxaaZA4CIwP8QEURs200Is/XL48XlFdQEX9/cIiIADMMAAIhYSkFEXRQRIso5A0ApZbFctT/fdQR932mWUlQ4a0LJLLeddQRNM885x9gOfQ87iYgIduJo4rz3Pjjnvj4/6ghEREFFpEjRRGC/iIg8YWOt7kAJEJGISi59F60PRBSRMDvXrVZKHQERlVJKKXbYh6n97rsoIoeTqCUgPU9EelixQpiGMNWqDd1GUk2gblELHQutlrWR1BKMEqk7BcZ6uy7uSyCya3FCjENWXO2m+23hQG79q58nGIkNl4jyNp9NZ3Akt0p0eO/qCAzLsTOVj291LfRI0LYbzSbMhmLPkYb6OKWYUj2B9wERU4ohzMypWru9EwCQUvQ+iMh2GKoI6G39NFIxExEzM7Nzjpknu2Bm3fP++lzbwR8uPxLabY9KBQAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-5PYUpXyTfWmXsy6gh5fTaj"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">brown_concrete<br>rgb(101, 80, 67)<br>655043</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABXElEQVR4nJ2UyZHdQAxDH9DKbCJwEM4/AH8CPlCes3t0UpVUWAiC+v3ry3Zpk3NO2gboOQZm4uNMZLWlUK4eA6UUyZ/P0MoAhQRJiy6QJOsOHh5bBR+3FZZoATLZd0kCELS51A9OQstrv4vu861Z+3ES27fowCNZYibAjsJ22pYdh61SSzMj6ZXw/w4WxsdavbxkoNIlsExr2T/I4NgtqysJBUGwaYWYGckFiVzKXwdK8hpvz7GgIB2JtuwSt1oFtwSfP5+dbMt5npZ2t2ZFk4lAeJJ3oa4IZLeVsJVJGwnRmZkJyN5FrdA555qgCdTeBtQ+/EO1QXyHJJGZewKQhNxKbx4RWN5cJklznrNVuSaw1Xbm00Y7DSmvLe0ftE21Rb8lEGrxW9ry3oRtgwRNJQO5vxPAztpFW4LJtJxjv+ErGb2rW91fi6dtGgr0PI/G7WQ7JiZZ+bJV5j7kv+6dFyZ40raUAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-SQFj7MEqvmtu9CNmkRgRe8"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">cobbled_deepslate<br>rgb(57, 64, 62)<br>39403e</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACKklEQVR4nJ2US5LkNgxEEyBFiVVS99gx09fxwuH7n8Kz86erRIkkPpxFnUCNJQKBFwkgQX/89WfOWUTmeXH3ARpupZR9f2qX7x8/YozETICZHcdJTLgSMYTQWnN3YmW4uffe5zmB3sq+q7l7Tyl1ERE9z3q752sAEWUmZnbvDgxHYBaRwKTaAYSYeu/ugwg5L5e6A4hmCgR3VzUOYbiNAQBEwICbyquQiMD7/t/29n4NAEBEa63LsuzPxyt7v99LKev2NgZMlZlKKQDW9e2ygpxzmpf9+RDRddvSNDFzmud1ewOwPx/uI4Tw8fHh7gCO87wE4DGGmcUYAfTWAahqPc/XbHLOZS8AQgjM/GJcU8AhjKFmdp7Hb79/JxohhDFGbV33QoR8y2YmIl/oDoDFpOyn+SDi/fForYmImblpStM0TfU4Q4iqysxE10wAILpYCOw+TM3UWmscyN1yvgNq5hyDiLz0jS+MyH0AOMoxht3vW4icc2ZmVXX3+7oB6F1abf//8y8xLbdrVojrtqU0vX97//n3zziFfLuNYT5MVac0q0itlQjrtro7M6nZJQD3Vvf90WrdtrWUY7gTBaaQ5gnDgRGnKCI+RillXi47mVNaiKI5Ukq3272Uo9VqZr1JYGq1unlK8xTj7Za/soNaD+Jo2inGUsrr24hIYK6tB2YzVTUiPD4/getX9Hw+Q4gYJupEeH5+xjTnvJzSAYiq9M7MIU4hTmOMq4hfRyqLPbSjzQwAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-RKS6KXPq2R8TxwWrAArb3v"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">cobblestone<br>rgb(121, 122, 114)<br>797a72</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACaklEQVR4nJ3US3LbOBAG4Eaj+YAUU6Io20kps5n4krOcOaQvkKqJYwmgLZHEqwHMwnMBupdY/F/9VY0W//z915euC963apNyKqXknN/GUWttF/fj6c+mrhERhOAYx7c3IoI1Q1TVyzInToCIAlNiZ+2X7VYIobUOIeSUlFLOOevc2/v1OBzWAYuzFZEkWZgTQCoZJXnvK6LgAgDIihZrIzMK3O+6VekAQIkZhUgpee+JKOeccwYARCwAidk7AAAUoiDoF/347XEdIACstbfb7e7u7nK+fLwOw0Frc7wfUs4phIpIawMAw/2wukHXda1SozGLtQ/3x1a1UpJS6jAMAGC0jsxVVT09/WBOQsD79boKwJwzM9d1DQC3eS4APoTbdIsxAkDXdZeLAQBJJEly4tUNiAhyjjFe36+nP04oJJLMJU3T5L1HxL7fhRiD959IBwAM3l2MicwCxfn1Ms+z944jJ+btZqPadhxvkiiEQJJQ4OoGkVNT15GT99H7OE1zXVMOfNfvACDE2DTSO3e+Xk/fTznlzwAAYIyBUvpD3zT1rutQyhgCM387neD/NZt+/vxXStHv9+uAYThs2vbr18fn52fVNrvdruRcUgohNG0bvJ+mCRGP98ecckUyxLgKQGftOI7LPD8+PGhjcs4CEaXcKAWlCIC2aZxzJWdj9Ha7XZUOAFi3ChADR6VUt99rY+Z5jjEu1kqspmmOzEqppmn6vv/45KuG7DwBihSZhRjN+HFtvPcoabETSmLmj319+fW7lCKEWAe8ns9EBBlccBLF75fXRrX7Xee9BwDv/LJYIqrqqqqrTwD/AThCkBqpxRbIAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-BYcgWikq9NRRabAGyHUunD"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">cyan_concrete<br>rgb(74, 122, 130)<br>4a7a82</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABR0lEQVR4nJ1UQZLkMAwC1PO6/dEe99sTwR5I+u74kHI5NgghiX/+/pOUxMnMxE4CQDMAvCtpbZHpj8OlALEBkNzrCkAyABLbIG2LBElS5DFBH0sS79Uw1waApJD9vtAgJ9V+P7UBDMkvaPl29XAfrQ9JAt4FQBLkSLEb7a0pqRPdnykg0BQVDMle1x14OaTivvVg5huXbXeTCABAYHcb84vwAYitFqARzwxIJJyhlDI9tfu9eUDwuyugVn9mkiDB4zBaTmTrle/K1EDzu0lzDXJ367xI6rZqZo4JmnQ9TkpKQR979fm0vfltjiMCJEwI3D38pJtNF+DdelMTjgkkpUOifrYtKovsjU6qajpXACC5i71nJBLv1lAnxfWbWQdRkgQguwFcKSSlQt/D7tF7SvBJkl2QIX9mTNpOy5T0dRVUZMjdPSX4D+XKD180uyIzAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-aKtVqRRrGu6pxHw3Q7xJGd"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">deepslate<br>rgb(60, 66, 64)<br>3c4240</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABgklEQVR4nJ1UzdLbMAhcAcZxHqszPfT93yWSMEg9kHjy9VSZk0ZCu7D8lF9/fp/m+FjE2Hft3Y7jyBv3YAGAdJtzYsXkNN9U6qs/n8+8qrUyk1kXEXcHQEMKIWIAICpLBASgVRNhs27W3SNj31QKAYDqTsThYKbHoUvoAER1z9Pr9RLhMbxWAwBzABHDrK+C/iAw65sKgOO5p1wwTzU2le3L9TT/rtb/EuTPiMFM+FRy35WI0yN1K6Wkw6oRANU9P0cMIlHdxwAAli1fEz0TXc5gUyEq+flB0lozcwBmDuupVdoNfQBIqwZYZlC9izCAK1gZyE7dVG4SJHT2kn6aMEchz1meAlZlAL23NYIL/Rt0zukxCnDN80W8OmgSMSYCwONQJonxQ5CJaNUAMJOIMNPqqnhP8mleX7219o/QTHJNbyHcaCQ5jsM9RDgLUGuNaldhxpgFnELdG2kZI3IRAe91dqEnMT5b5AY6AOn9He+1GOaAu9daAZxnqs+XONbPJYK/QuftiGJkTtUAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-Lhy4n79HTXyeumZmVm97Rh"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">deepslate_top<br>rgb(60, 66, 64)<br>3c4240</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABgklEQVR4nJ1UzdLbMAhcAcZxHqszPfT93yWSMEg9kHjy9VSZk0ZCu7D8lF9/fp/m+FjE2Hft3Y7jyBv3YAGAdJtzYsXkNN9U6qs/n8+8qrUyk1kXEXcHQEMKIWIAICpLBASgVRNhs27W3SNj31QKAYDqTsThYKbHoUvoAER1z9Pr9RLhMbxWAwBzABHDrK+C/iAw65sKgOO5p1wwTzU2le3L9TT/rtb/EuTPiMFM+FRy35WI0yN1K6Wkw6oRANU9P0cMIlHdxwAAli1fEz0TXc5gUyEq+flB0lozcwBmDuupVdoNfQBIqwZYZlC9izCAK1gZyE7dVG4SJHT2kn6aMEchz1meAlZlAL23NYIL/Rt0zukxCnDN80W8OmgSMSYCwONQJonxQ5CJaNUAMJOIMNPqqnhP8mleX7219o/QTHJNbyHcaCQ5jsM9RDgLUGuNaldhxpgFnELdG2kZI3IRAe91dqEnMT5b5AY6AOn9He+1GOaAu9daAZxnqs+XONbPJYK/QuftiGJkTtUAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-EfvDc9ZjrAtaV7x4mK7SJH"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">diorite<br>rgb(192, 192, 182)<br>c0c0b6</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABmklEQVR4nJ1UQZLjIAxsnKQCSUCXscn8/w9Te0ueYzu5AB7D1lZgDkrY1NxslcsHCXULtZC4Xr6cD3hZTKlrP8bb3VrLHj8FOh4B8DEijSXWOB/I6DlGQ2SIrLXj7a6k9M6V/PDO4ZFzKcwdU1qEDmALoB9vB6W8cwCwaay13jkyz0oNEQA3BSVldS4g4MIB9H1/UAqPPAxDDa8o+Zc13jlRsij503YAyGglJcfI6HPXktH84SXDshtwWkyJcRmiaz9EsykAAO/cHKMQohIvuwEAQ8TJMSVsGkMU5hmAOkqOMvoKAQCI6+VrJ/f/0l8AO7m/j/f3cNXgf98Wjum2H281fx7Gg1IAarFan0KY2LNCAABbhuZB4j+AfhhqySxPEc0rmpcRVNzhDbSUElMEhLW2svKZs22XEcSUuCHnrq1i1IaIkmsPtT6tGKTnS1ZSzjH+EgDATu7PXcscjRArBklcrn/8FMzpmcnP+F2YarxLFk9RyQ9z0pzMQ1nRK/Fzi6yyLe9OAHUf5FJCmPgq8XtWUh6UWvfKAPwAADLTigL7HwIAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-GA5KY9Q9Z2pbwHT54EYxfP"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">dripstone_block<br>rgb(145, 132, 109)<br>91846d</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABi0lEQVR4nJ1UQZKjMAxsG2yJDBAeOr/YF+xLNyQsyCbBc1BwJTmNcbk42KK7rZZk/v75lrhiXyGufXu6TvPQd3oiMVBdA9AwJo+SZSWu7J2E0DA3zEPfXaeZvFtEtu2xiKQtpZ07vEj55aoBjNPMRIsIAGPN0HeLCHunEQ3z8x3e5cMCAhUO4N84MlHa0uV6y9cHJH8SZLFD12q6Mi6/S5a4SlxLPXi6F+JK3mF3sm9P1lYasYhICMZYKs8PAAugYaZduLGmYY73OwDna71V9AMGAKjZu7qu9Oeu/bpN/9XtRWSRNw/kkB/1OM3ArC+43CYmApDFknfZj4MECq2FpF8Al+stZ1ztMbZquAKQ0lZGkHFfQVPaQoyAGfous2rMufsqIwh7aZ7bk/N+jREvCUnbY5xmAOSd7iJ05E4m7ySEDwMAOO/PLZTDvF/9lmDoO4mBPeVE5Z5omO/3h7GVDj6truJG27YH++cg0oLJ6EqMfYqUan8S6OzEy2BIQIirTiSRSN4x0bEuA/ADvYjfw2we59IAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-ghAUmY8D4UYzQzFZ7WTkiF"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">gray_concrete<br>rgb(92, 92, 92)<br>5c5c5c</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABEklEQVR4nJ1USxaDMAhkILf0/qcwQBfTzMuzm0Y3rVGZH4DrutzdzKoqIqqqu80sIswsMyMiMwHwHICdXM6f7gYw59xLVBWAzHR3AABI5QyA30QE1sUHmSlgvV1VxwD0hPJZ8YHHp/TqtLqZDVYhX6pxdyXB2+52dyZxrIDfkDIVPAq5f23cDTxQQILkK4uriucUJ+xHJP8q2A2hFBbSH1sd9Sbk+76V5Bjjl6bg2a/HAKLJGHfKTN7WZAB40UhOdhwldoutduJJREiWIM8AdrtliHZDZlYV3TutbmZOgjRHK+ExFrZCfjMHtvaBKGt0pUOpvFGgFUZz5pz0XXNA7t+3z7todLeosUk0d6quLnqxLT6uWxU3Su0aRQAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-YTWFTvaZ8kSUjpzXF9fqxa"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">gray_wood_boards<br>rgb(100, 94, 89)<br>645e59</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAAB9ElEQVR4nJ1UTa8cRQysst0bCQhvd44JKBIS/DJu3PjBCAkJlI+3PD1ekp1p28VhIOLAZeJjt1XVVa42f/7pRwEkCWwzAZxOw8gYo6rC/bauZmZmt9u6rmtV40jFh4+3d/d/Xi53JLvlxo+31YyVSfPKJBFjXK8Py3Je121EHCIwkl8///ITerXMmHNK6koAMYa7Lct522ZmHkIHEJIAAqjMeHZyQ0tjjP26pZw5N5EEJB3FR5AEkZkktjkjQkJDAEhG+Ajffa/WnIcVmJk9Pj5FRIwREZIyZ86U/nlwVbd0f30wI44rMADLcjYSwLpuXRUxzNhVJKu6WiQvl7t13Y7jI37/4/XtdmsAEFoR0VJ1STBjtwiasbvNrapfffPyGMEP339nZpVZ3buO6n786/3zr74AUNURzn+7PeJ6fThGsJtbmRJixJ73Oee6bm/e3p/PdyS6yj30WSmyrpRk7uYu6b95Xy7ncJMQESQ+Ax1AeAS5e6DKAhARc5tVlZXBcKO5cR+RDosI7F8sgmRBMUa3QJDs7jmnJKOZuxv3nkMElnPS/NMKu14fugqguz89fRhjPDudYkRXzjmrD9tkMYa63K1aMcaynFsSZGbLciYgYM4pwCP27XSo4pdff3Mnycw2owF0k/T6zbv/Pf/2xYtDBH8DA6dWKw/E4VMAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-FsdX8YqpVxupujkYhZfaM4"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">gray_wood_planks<br>rgb(66, 63, 61)<br>423f3d</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABjUlEQVR4nJ1Ty05cUQyzncOCbnh0SYHvqVSp//8PvbQqMwPMTOwuLhr6kJBOs0t8FJ/YCb9++eyYQLc/nJ8/719EJe42gFFFcpwN26V63r9sNzvMxNhsd7EpAdnunkhIBQCIyOcEYNyUuk2C4BSBSqSEhCQAqUpcUycA7Q5ge0WnugMY35aHAAAItE1SZAACJJOsrQEEIHl9eTlHcH93626SHZ+GH2NIAtDtFT10SySwmfVgu90GsddPA8nxeKRUJQAl/YHOh9pxBwGSw2GfeJwNcRWdJ3Q15nDYzxKMZVlArg7Hrqo33UkkJ3R9cH11NUdwd3vzjuJV4y+H5j3YPeFVYcbtoKryujkB8Fsl/I81BQDCtiRSJQCpITuS3FkrFF+n9CTBw/cfAJKQjL0qTiBASbbf/ABIXl1czBHcf7p5R3H8cxOPm+0cwc/HR6ok2AAisY9do2zYDUBUu6sKgDR9DaKKhDvdTdIOVWuaQJLj1eQVnSUYy7JQWpMkcUicKgRsJyABMs7H67k7+AWPEyy9s23gTgAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-D793QHw2eXuPFsC2NrQXjD"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">green_concrete<br>rgb(84, 97, 66)<br>546142</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABUElEQVR4nJ2Uu7HdQAxDD7BqzD24APffgi8BB5SeY92NOBsQxGeg339+2YYmPcdJW6DnGJjJsSexlBaEePUMQFskfT4D+FmRIGkSWwhL9rvtgG0B51iSZImivR3aVhIIVEj6GiDpvh8qDx4CSS1tZ3KOeSsQXJIkzQRYNrZuJ7Qc1fZYM4NeA1hiLV0pWmYiAEEXwHYB3Xq+Y2B7RQCS7G/AZvWfCVKp0DceSMqTzR8qLdKReExet+lzwQuAv38/j5Nc17XD6rbJmQQEnom+8sB7na2Z7Awk85mArF1bSec6rwHaOz8riG1AFugO1blNuv14D4CE5FbrRxpAdltBJk2uc7ZCXgOcs9H8tFsJC1PoplN2aVqJbzwAbVR01xn7s2o8QTJf9QQbU9tFk7Rkpu059kokJf/D4/dtd7XNc9t1nRm3s0UhsdsF3I0yb+voH0XVDSaqdb3MAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-d77F5gkNsiJB586bZAT4PZ"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">light_blue_concrete<br>rgb(109, 127, 164)<br>6d7fa4</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABWUlEQVR4nJ2Uy5XdMAxDL6DXbmpIMynTBLKgZ06W0WjhhXhEkPhYv37/sdWqzTknaRvgHINmxnYy0tn722OgASLpeR6oJKBVEmm/lpC8pTsA7VN/JG0jAJoM0Fbw3fUHS7htW+hXhwLWEQIJtjYT6V+s/z0fSYKZB5COVNsJbQTLS1t7uaK93IDt4rP8tJpndqHtZfstSMi3G/ico6/BkixHbY1EgZkpFCHdjg+YkqSrQVm8Fh3Lbgtqmhaa3Iv8zCNoaXvOadN3TkGFkiAkkv7Mpi6sQ9O0lSQx88xkYyGv3pxzrgHW2rZ53WJAK6hd+XxOs1Zmw3ELsJbZGZX0DddRuiIn5ZwPsCm5A7CNmOdpox0dTQNvrG3R/UG9XN0BiLaRXzEA1PaNHtBm+77Ruwawl/fMQJ4n7d6etvaa582XfC3yp22mqEg+H9ZKVIA8T74sZCkzc7vEX/iQDKlwj9Q5AAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-cztuzAQvaGtDJTpiijBsqT"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">light_gray_concrete<br>rgb(137, 140, 140)<br>898c8c</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABBElEQVR4nKWUy67DIAxEB8PHX6m/jPFdnHaEWDWURZTw8HgepP29XhFRVVXVe19rVZWk3rukzIyItVZrjfnWmp6MkLTW4uSc0yWqiro8PR5VlxQci4ijBKh07XF8fgWAOP42m6PZzLxoX9LgWGbqIw5O7MpUlZ24YbBLJAkn9BGEJbbdAIwxnBBHiHLsgBz8Lj1Ad0bv3ZoQ3x143/ktAA1itS+El/eY3nnwNtnZ93tmWveIIEVY/YzB4WREGIPJMcZPEu2aoIMheYEKf44bANqcc+767KGEk1EfA3AYGPOoKqfTkb3I6JsBfVHR3iLRcYEvGAyaRRBfAlOZc9r21trFH+kfiFwAwXXpQdwAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-5Mr9cdvJAR6jbYk8C5ettx"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">lime_concrete<br>rgb(91, 131, 88)<br>5b8358</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABVUlEQVR4nJ2US24eMQyDP1JzyAI9To6dkdiFnL9rx6sBxqDMh6i/X39sEyZTVTOTBKgqoLvL1dOSk+H+GGAIkfS+LyAZIMyMpJ62LCHZ++tqgGVEufRzIEBPA0mEfi5n7kl4MklCPhhAqSQJCYWEdHepbtGBZ4G6G1g2tmcmEwTCchIfJ7QOXTAQ+kiESNJvH1kCYNsyiaRfeVD+vGsjFDKZxVpyR0DxGw8UzcyBCFW182TJSiLMHLdn7gd897dQkiRPPfvxPzlipteM3YZ7BtIugeVOJ1kzpqe7CZJlAZKeug6SV337OGGbjROyjajHm2ShXY7rAcrJu6RPVbjWeXXPZJ56QrgvC5crSr+dxHjXYtNiGWJrm0potbobwPaBtWYAZxu6gfV/cX+R0X2lVvfpCYdKqWwv9Fbeue3rFD1JpoOCeOpp9aeaJM0726QI6TTK1fkHIekUXHIAOFEAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-jhVVj6mqyNp6xQbJVPMcsT"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">magenta_concrete<br>rgb(152, 107, 158)<br>986b9e</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABWElEQVR4nJ2US5LcMAxDH0DfNjfKYk5qAlnI3Vl7tHJJLoLEh/r750eWqjQzk6QtMDPA7trerDXpCoV3xwAlRNJ934D0uUwkJRmNhDWSXtbHloUuXwhJCGjpZoG2iKoANH07AE7TtvRTu8B4dNAEhbK7p5W3ANeps7uA5aq2H1AhJCuN7MMY7bsJACHbDz9ld59OC2DbNlTSbzSYGUmlwGOhkkbWoX53KaoQzbv2nwm+1gQevNay5bagtk2Pr14D3Pd9mGk7M0fzR3Aqqaeojmv9GkASRZKsJOcbkU02fd4ESLpmXgMccmwbt7XFYydsq7pm2p7fTjh+AyB0CEnatqqtpqDdNL3m4pOSdwDjAe690+hxopKokgW1AdKIX9m06tczx/hVyRM9obSnbpr3QT67yAI2G7L3kidcbTFNv42PXot8tU0qelZeOCJUknE2/5fS2Sgvh/gHIDQWw/F3bpsAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-f8Zz7h2QcNKp6aMFbPx9w3"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">orange_concrete<br>rgb(169, 115, 74)<br>a9734a</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABW0lEQVR4nJ2UsYEcMQwDB+BV53ZclWv0EnCg39w6RUpIiBgR+vP7l2zaNDPTNK1AY8FubG925LRQIW6OS9sGJO2zpZJKVZJINLGMsCT5qjtgyYKPLVkSErSwWYCCzqMFtL0WaNO2vJUFGI+QUAWtSnYlw72AJKxnk0QSwjP60aqQ7ILsZNEdAMAgwdgSSCq7Wyhnqh7zDhtzz2DGhyqQJA2ljeQK0O4el4S+YQBK8hZ2ZiQoti21FW5oGkhyLfA8fyXTtJ355OUtKBIki6jogXR5Ppbbg1fJFiyVPrttZQlz6Ivx5Hzf/58gDWD7WGy79OyELVcet20L2svugCnvLlUSZyuErKaFbEhn5qs9w7ahz25a6ceNJCrIgOzSNEJfMHBFexLDtNAKhWd/kKZ9L7kMujOBzhAkCT2GYNtOg9Ws34ybL8KuTZK20M987EE6TI2yOQlqWfbuNeR/X+sUjW0E7CsAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-EYqZgT3v5Rgyz7ka4CqgcL"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">pink_concrete<br>rgb(165, 119, 133)<br>a57785</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABW0lEQVR4nJ2UwZErMRBCH2iC3gB+KhvlTsM/tO37WCeVVAWiAen3559stWnPOU3SAj5HMDO2JznSnlPxZBmgCUi677sgCVCbRFISS0iW9uoZgSShy5a0QEBhEqAtgjfsS8Qjgu6CxW0DnA+V9pTMfPN+uCQh7hngSBX2IQmB12jayk6CxEMNhgodex+tMnO/QNZtW1apJPPcg3MuSaVANkKlraTNy8xQVIT6hQfwSSaUc44kWtuW2wqaNA0keUxw34OgbXsu5235uiu0o6/U5AubL0sta/UqWZR7pu0mFxkG6dgzz0Q4HydRW9vAVsq2K5+rzcqaL0ZE+6m/pCZbLtlNC5khvc7h3ZJnBLZB99xpN6iCTNV31eyWtALJjwkq0lr2u0RFtH8zG/q0snbzvAbYWhFMJpC/m1bWsdtidz87AM43Ctpm0gpdPr4uUEvBKHNvqCzJnpmnBP8Bb3IPt3uy1gwAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-QWKW5orzBJmK3X3AyuigK3"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">plastic_blue<br>rgb(85, 97, 99)<br>556163</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABTklEQVR4nJWUwZHdMAxDHyB3mAIyk/5LsIA90HF+9rTi+CKPSBAAKf36/WctS9o7yyCBJBKgSZoiXZf3TostTsLWk9MkpSVJ0ja2QEjTwVrrunxUHbhkg9pcl9Gbr0FdSy1AUoYaPQPYO5TSIgsJ0JCQpDmLln1vr3XMgDaNvaRKT7P2pxQCbGoN0lFYNiA1aTv5feO9145AZw4D11oCS0pum34ok4SW5wStFuxDBk8h6mlPGofnk5CUdMZJxwSwZKBBUqHfNH6ojHDsfegAXG2TaoHcDkT3FtBWso2FDXgcOgMARoqnYanNOy3PNEkJe2APZfIw+PwlWdKL2gIa87/d/BGDmc2PmWzbv/v1dCy1RTI6B7Btz3swdbXW/1qXQVwLyackptYjSJ9njiQteyfpvXf2nvf1vnPKwHvKlOx/ZswSrLVAkr3GkJ6vAV+nB/pWllU5wQAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-HFBfoL6Z3mZVa88BNJxgcN"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">purple_concrete<br>rgb(108, 80, 134)<br>6c5086</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABVElEQVR4nJ2UQaLVMAwDZ5TP/bgI1+DSPFss0s++ZJmknkqK7a+fv2NKuz3nbLdb5OQAM5OTnTW2pVRerVDKUtTPfChGSunuqrtrFFXzsjzECObEeBcF2FmgVPlXte1rQLdX+63bLpCjigj3cHausvcKNDoz270KzjlgKQWMAZLsrL63CPtYhGph5gPwTUgSpf3PDE6+VFpgd7stdJsoIDNzXVL/JwPs7j4flnOOWKrRtCWU7fcfvAZ8/ozStu35ynfi3Kcj7qwo3lf7GmBsURN32us1zszMQBM1iNz8XwK6T5Jo2yS31/TZPPlqty0+zfESQLHIbebtthVyA4DZ2fac8/T8W0AS6syn7bcT7BZMfMSVO6A0rwE+8yBqn3QtnZ17o9ubbfftoLsAc3t1O5TZaZt4LYq5w+7eNq8VfLXdDkg9P45jexMFnf1cW4zWmXkL+AsiBgxyh1QtogAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-Morjbx4iMBu9KPq3xSZ735"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">red_concrete<br>rgb(153, 85, 83)<br>995553</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABWElEQVR4nJ1US3LFMAwC5Bt2pnfrWV8EXch5fcs6WeTjeIQFAv58f1EiYLuq7CQGUFUAultV3S3JNgEER5fm4YTkdV1AqHvRJunukghIev86AJBEYFWBJAkSSYDuBpAE5D50YPsYwHaSJJwiCYCq4gcekm6rxNPywJoqc15Jmbs9SAQoOWHJ3SRn/aADkARURXJa6O79PjskSUhIPtGgpPe5hi4ktikF2M29CXygAUjfhOBmP4FIDbCUW+0nIl+v156cpNYaxTdbAIF0z1Z381xmkX/8etggAdh2dwBIJIGQWFXHAONbSUOIpPkMuS0iJh6K+u7mCABjsSS89QiwBSDajrPWwumEDkCVkFzdTiiNvyZ2KCIQCWRi43N8/90BkGRmBgkmzZLuCwC5Ywp4khPYCkoA2nbSbSQqSdpBZJPbX3VutJXECRMCay339Y4mDVebGIF5IPIvUr4cYwaQlgkAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-WMuHVkUCfpUEaMtpWWy2q3"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">red_sandstone<br>rgb(159, 108, 82)<br>9f6c52</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACIUlEQVR4nJ2USbIdRQxFr5rMeu03jwg7PGJDbIMVsUdmwPf3ayor1TFwwLzQVNI9cUMN/f7br00ls7JwOXYi3F9DmAFEZhWYCEQAqpKJT71hT+jSVZivp8M2jYks8tQXIjy37afz+b6uiypAADY3ItqlDkA/v10AMJMQAehV09wjr6fDNF+0sZBHMujr7Q3Ax2PdB5jm9zGbcldpKsqsS89KJs5KAMxMRB5BjD8/XrrThPamn5fmEQDW6QDOS1+nR2REHQ8a6dfj8v2x3a7H2+Vwf277AM9tCpNHmqUIZdZgOy89q4D6UeQRt+sRwPTYpQ5Ax3QhqioiYiYmmhYeZRYiBKCA67E/xkZEwvuHPDZrKszUld2TmTZzZREl82zCBLw/RkQmKjwvh74P8MuX2zrnc7XwEqWm0pt0FYBEeN2mMF+YmHi6L619u792Afj9+VKRT5eDCHUVs1iH/31/jWnbZo91E6bpsZox8zZtlzoAReE5ZlZl1BoeGcTcm3rkNkNI3h9DhSvrVSb7L00LCM9EAWjKUgogvIjAQhlVlQD/yKJQWbsA/Ol0UGVzX7f5/Tnu6wCQ/y4oCzHzYx3rNAD/51X88deHivSmx4X/azf3Ej62PsymBRELk0VY5FF0n4Ofr6dDk2k+3YUEwP01srCZ31/jNSwzhckiK+vtsOx28P5Yq4qAQr4/nk1FmHvTJpJVNK2qqgqoyPr2HOed7/ofuaBgPKrEohUAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-i3QWBxgpzizcRyVjPAYbLb"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">red_sandstone_top<br>rgb(150, 101, 77)<br>96654d</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABu0lEQVR4nJ2UQXYUQQxDJdnVM3A3zsGNOCjwkvSUbbHowL6ptcv/WZLNH9+/kXwe6+fbBwzQM0NqRVAE4PGMX10ZArAYuPNydx+ZH68NQKQkKEjsGg0jRZGDjFgZHsO3+iNh2tcnDzAzgi7YwLNb5FW6qwHfnUAid4+NlQngyIzU2JECcKyIYAQFHhkX+94EA8/Mtl1+HAtA16wU7Jn+9VbHiqAejzzPknhboiPDCAKvao9xGWvM+LHWYwFAt8+zIkjSfY+g3+/nrgKQEoBdLbGmx+52twEMXFPgP7fuAFYGQAAUZ7xCJASt/JSb5MoIJYHdcxeQx0oCETrPAvCq7pmQAgEgglWTqdcuO/4l6gagayL1fm6BEZTjWAnAYwCXRFXz9cuBS5+bM6g9HhMc+1UNAPauej/3wJGK4GB2dbf/R6KgZpwpAjOmuKtmZmVcMAAAUyKBvtsfGcH31w4LwGNlZsBuSGLNXAiBz5Vnt4Tbe0DyuRYAigb2rm6PzeGR8dotMlJn964+Mu7uQdqWaLtrakrSldpGu3RdpPjr+YzvxihBVs3AAJ7HYRtk10ii2DXwpxNHhn37mv4BE901c79NMycAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-QqPNSZL3SH7ee4FW8CWoPa"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">sandstone<br>rgb(156, 147, 130)<br>9c9382</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACPklEQVR4nJWTy67bZgyEhzfJkmPH5yRtEKB9zT5Dl33JoigKNJYlW/+V7CLpA4hLLubDkDP0x++/mVnvEYH5w0mI13UVViC694hg5ggAAIJI5umEI6PDeBLh2/u55MwktdX5NIPotT+v14/PbbNhYJADtWRiOqQOQD99uhGImJQFwOBDKaW1drlcWqnjMJJyrx1EP3/5CcBjWY8BaqnPbbdB1dTMRHiaTu7OzO4OgJUB6q2T0L//3EX4GMAGe/889tYBpJwBzNOUcu6te/NxHj37+Tw/lu3t7frxdtnW5zHAvidm7r213FnZeyTO8zRFRPz/3N7629sVQKn1kDoAzXsR5h7OxCzETLVU755zVWUAAXw4z8/Xk4iZj90HgKaUTI2U1agXJ6GSi4qqSStNTQhY7qt3b968+/k8HwP88uvXlNJrS626mYiJDTaYERFdOe1JhOUszFxrHc3uB1PE92VVtevtospq2krLr7x8W/aUS8r79hKWUuueE7OkUg6pA1BEbK9XePTm3nLvjVh0HHprNTlYlvsqxuhInoUZB6umgejFEQGAB2VlAK12IYISt/BwQICwQSMiPA4B+Hq56CC1lj29Hstj2zYA33kEQAkiz217pRT4sTvm4M+//jY1G8eTTEREQAC1FqiO4ymlVEoBSJVrLbX1aRiPOXi/3U6D1pxrKUwcwLau3T2VvD2e+3MPD1UppSLiep4OO7jf7xHBTN48L9nMhNXGwUzcgxLCIzyI0Hq/L9t5PtaD/wCWMWeJSn0fhwAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-Wkpe3MwaTzTFhE6kKZnmvH"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">sandstone_bottom<br>rgb(146, 138, 123)<br>928a7b</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABxklEQVR4nJ2Uy4EcQQhDJajP7MbsDHx0qPZ6pqsKyYfZBNoEwAMJwV8/f5Cej48/v79gGyWJZO8TBADbENZ+ZSaA1gbuVNv7GmNcryeAiGCkgSDPPhHBJEkDrc1sYftWdwABpE2b9pF9zoKsUkTIrl0uCwZQR3X2bUBGnFO2Wx8AxhjMKIlJAG20yGgZQbaeGf0uoMk+tSXYHHMAcKn3BqBqPV+aI1uOPvu+NoO3Ab1Htkny7IIhAIBty3N+zAkAKu1rRwYI654N8fvrefYCkBkA6ojBc1ZJKqkEQPY+lwHc9hgxWpCNMMiSW0uSGf2tEgAQ2TPbCPqcugtofcwgIltdO4C1XmUnOfIBIDJ0FC2ua0E9Im4DXFbGfq0gI6PH7CTe+QK+JTr6/Px4+3s3CnFqwQZR0lovAATOvv4+X7KZERmlXadU+h+JWg7LmckGK0HufUmavb9hAMiWGSRRug2IjOf1zCKAOWf2RkAlBs/3CSnIOfu1Dm5bgEb6MR7vOWV4HZUkBbL3POv9keJau456D93codmMsE2V9rkigmwASgunvz9Swu8E3O0OoBnWsSwAj8fDpgGXGAnCZdgEDfceNu9e0T/Tz0O6ckz/jwAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-CXCKXcNvbVauYgQQhQLpUs"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">sandstone_top<br>rgb(147, 137, 122)<br>93897a</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABy0lEQVR4nJ2Uy5VUQQxDJbk+PaRMCGzJFIbuV1W2WPQEwMMB+Ppc2+LPH98pz/nx+9cnbCOrimTvEwQA2yis8woFgBYDd6rtfY0xrtcTgCQqDIg8+0hikKSBFjOabMO3+kNA2LRpn7LPWShXlqSyc6fTBQPIU3n2vfaAQjonbbc+AIwxGMoqBgG00RRqIZGtR6jfBbSyT+4q2BxzAHBW7w1A5nq+ao5oMfrs+9oU7ypqvSvaJHl2wigAgG2X5/yYEwAqa19bIRDOewT9+nyevQBECECeonjOyqrKqiwAZe9zGbg7PgCNJrIRBpnl1oJkqL8tAQARPaINyefkXUDrY4pQtLy2gLVeaQc54gFAoTqlputaqC7pNsDpCu3XEqlQ1+wk3v8FfCk69e3bBwEArps7OLlgg8iqtV4ACJx9/Xm+ymZIoaydJyvrfxS1GC5HBBtcAXLvq6pm728YALJFiCSybgMUel7PSAKYc0ZvBCqL4vk6oRI5Z7/WgW4fUiP9GI/3nGV4ncqqKiF6j7PeiaRr7TzVu+qmpGZTYRcra59LEtkAZC2c/k6kwFfG1W1DaIZru1wAHo+HTQPOouLrb22ChnuXzfd1/Xv9BeJ0RrJjuSe+AAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-jzXncrT6zef3uuXTzzCNfb"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">smooth_basalt<br>rgb(48, 50, 53)<br>303235</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABrUlEQVR4nJ1US5bcIAws2ZKYxrlQspj7H2iABtQoC3X3m+zCaOX3LFe5PkC//3z20fEaM7vdcmsl518ACJhmzAxgjuHwtRZ25uijqyYzU02qKeertSqsY3T31Udf6+HuAKZNs7mFDoAJVOtXIAI4jjPna4yeNMWGagplzKJJ763tEaiqJCVHqUVYfK1aCwACBe73bfJdAeA+etLkhCtffXRNCcC0AUCSiuoTGhhjfE/rfwkI1Ec3M2EBMHoHcMvXAXJ/4k6bACLq3TkcrpriYzM7jlM1PewBQIRDB+DMrJrCtz0Fquk8T9UEwsfto7U2xwLQRw9l79Wo6TZBRPpWwMwO15QCSkRtTocnTT8IIJAZry5G2nDUUt6Om01meb4F7vfNmhIoqlJrYWYChQ9hTs5X4DoBQC1fx3HuEUybqhpY53muxyMExbkjoLw8FFFm2b4qAJRa+ui1lntrYwz/1pXjPHK+4pmI9HW8NxTkfEW2EUAtX9NmeCWq67EICI7xs5DdnZmjgmYGkLA4XJLanMLi9E/m2wSt1UCM2xSA+5pz1lLir5nlqQ/Afov+ApGWD+oKhYGQAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-aSw4CUiMkPkRb3d7RnyLpP"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">smooth_stone<br>rgb(135, 136, 128)<br>878880</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAAB4klEQVR4nJ2T0W7UMBBFr+3MeLtxl3ZB/QPgC3ns17ZIFNF2m3qTZsaOeXA3VAiEzDwl4+hcz70Tc3395eJyj1OpzNs+vEzj5qxPOQMoKOxcznkYnjSl7XaLluouLvdLTjHGPpwDSDk/3P8gItVDQVFRZs5ESXWcprtv3z99/tgmAOB4PAI4xmcAMIaIRMQzGxgABRBVVbWw4bxvogPoiLgjAhBj9MwoJca4Hs8iv761rXAA6FTFM6vILoRZxDOvXM9cX9dKKTcLABCR53r9EzqEHjALAEBFatNau+SlVcACUFXPTMzEXC9uYVSkHr2O4j0WjOPYPMGaQSWups8ibx3zzLBo3VG8zcAzz6ckKnENYH3YbPjvqD+XBSAidReZeQH6cL7fv2fmWWQBOvYd+wUg5mGI/yT+PkFOqqodUUdUAAAic13ZGsnDw32dQFNqpQPojDGlFAsMMQLwzMRU7arcXQjOuZyzMcY51ypgreuY2Tm3C+G1BVPRQ4yzyBDjOE2zCBNdXX1oFgBA7DXnBQghEHMNOYTgvSfmtfn49HRz87VVoDscDtYa7zcicjg8vtvtcLLbWKcimlL9G5Zl+Z81vb253fZn43Gq/sosrnPT+JJzZmZrTBU7225KKa10AD8BZAgZhOmvwYgAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-2tFzeBXqkEC9p9SWsc6Cay"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">smooth_stone_slab_side<br>rgb(134, 135, 127)<br>86877f
+            </h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACB0lEQVR4nJ2US24bMRBEi78eezSWbSHwHZLcLksf15YNb2TJEocUu/nJYiAhyCZgekcSeMVqVlM9P/963GxwKU5pNU0xhNtxlUsB0NDImFLK19eX5DxNE3pKP242aM2fTq2hNTTgsN/XWmd/Osf59HXgGFNK5xgT8/b1rYsOwAKY5xnA7E8AoJRzjpkHIgUFoAEsIiIaerpbdQs4R9Y5AN77gQitee+vx4n5D7e9cACwIjwQCfN6mhLzQHTlDkTL8lo5l24BAMx8Wq5/QU/TClAVACDMy6bWupbaK6A/Pj4aMBBJziFGKOWIYuKci9IagNKmlKK1RmshhG4H1piXl1drDQAietu+A7iC1vd3YY5zCAPROI7jOHYLGGN+/vjeABEBYLQutQLIIrVWY4yxNosA6nyOu92uV0A/bjbe+9n72XtOKcS4DEStlZlzKa3BWFdqcUTHo/838i8HWURErHPWuQYAYE5LZB0RgM/P3fL+knMvHYBVSrXWNHD0HsBA5MgNRNfIrqfJGFNKUUoZY3oFtLGWiIwx68sno6EW9NH7xHz0PsSYmMm5p6dv3Q4AOBqYE4DlI7uMwiQizrmlUd77EOPb9v3+4aFPYL8/OGeH4YaZD4f9/XqNS7uVNsIsOS8Bq7X+T0y3r9txdRvmuPQ3hmisieFcSiEirdQidjvetNZ66QB+AxNzRQpmH4Z+AAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-ArPbCtqzdpXv8ZjgJnCnsy"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">stone<br>rgb(135, 135, 127)<br>87877f</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABf0lEQVR4nJ1Uy3KEMAxTAsRhCqFf3GP7u+XRwXZ3SQ9eMkxvwQcOsSMZ2ZH7+vxgEZwhquMwrNuW0nSeSOw6AFYWY0RNeBaJRCxCsafYpzSt20YhCO/5eArvOI4jZ+MW1Sp0AC2AeV0jkfAOAN6nNAnvkcgqKPYAWIVCKIcVBNY4gHn+jkQ4jmWZS/pGy/8JSrPvKZlcBTcSXVtmERapnUFrN0WVQsA5yXEYnG+y/QTvLOKcs4La8AAo9nZZVOE9xV4fDwBd6Cxr6DcGAKCNRE3bOCIAb8Pws202beFdeL/O4LrNFQTzugJ46bMs1mZpNoSg5zxuEhi0LZJ9AczLXBS38WTnz2yuIyi4ywU05ywqgEtpKqxWM6VURyCqJsg0jk3XPX9/cRHE5aNoGEK4sUgewLyuLPK9LD/b9k/opuumcXyVOnfnJac0iQoFKkKVN0GxfzyecN6Mj3lHvdm1+XhSeBmRLWVBN2IUF7kVrXknLsZw5Kyq5kjCbE/sNsEf+bTmdapZm5AAAAAASUVORK5CYII="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-Ap7Ykp4AsaLo9oHzHnD4Bi"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">tile_irregular<br>rgb(67, 70, 75)<br>43464b</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABbklEQVR4nJ2UQXPjIAyFH0jYmaTjTX5aD73s/79uJ90EO4AEPaj1pEkvWAePDLae/D1k9/r2V0XxHbVpCEMpeRhGW5EixARARWO8AA49wSp6S7fD4WAy3pGKLvO8zDMRqwoAIoZzklOc48vL1CcAQHLScXdLN8mJhxFAvF6n48meIA4AVIrznoi7qgNgDmxFJSfnvUoB4IksabVasjlYigB4kKmqa+9rqBRb7xOwN00GAA+jtUwcVmMs4qZPYasV4yVerwA80Xo1/++N2SJATCQeCNPxRORzSrahUjDuHozZgqiUnJbFeQ9AcrXE6P9qTLeAd+S8n/4cf+COFwDPxhi6PgHr9xn3fr9/Nsbmrk+gtq/GH3Abq+l4kpwA2JT9/zj3Chj6ZLiJQ6sVwIqbyPP3TwnObUDkh2F03t/jXveIg2q1ReKwcdBaa7/OgVW042T0ekt/CZzf/y3LgvsT0lqt9eP8bncODj8HsCs+Ad1r/J5EiwwuAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-mTzijLbrjzCh3iCSPDueMj"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">tile_pattern<br>rgb(69, 57, 49)<br>453931</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAACHElEQVR4nJWUS5YbIQxFJYGAwq442U2mmWf/u+g+7i6bn5DIoLKBYg5XVxIP//75LSLOOVWdcwKA936tFUKAtZBojGFm3nszAwBTgyuHSnmfN2utzjkREZk6Zynl9X6LyJxTVUspRFRru/T6WW4IgQEgpRRjXGuttcxW3rapambMzMylFADYtnTZQHV+fn7qnL33McZai4gQERBrrSGEWmvvXURM7fV6XTY4C7S1YozMzBzmFPb+dJpz7vs+huz7PufMOcO6BiBmPrvfWhORUt5jjHcpItJaM7PeO7M/joOIzmldMzCzlBIiPh6PMQYzO+eccwCgqnMqwBIRZl5mMUYZcs0AAGQMADiOAwCWGSJ+f3+fW8vsETHGKGOQc8/n86oBEVHattZajDGEAEiImFJyzqWUmJm9J6ItZ1O73W5XAX6MUWtNKfXeAWCM7hzJGGut3ntKqbU2VafMmKKZEdI1g2W2bRuslXMGgH3fnXM/Hg8AjDF672+3W4zReQcAIYSrBqRmpRTPPMYAgFJKrfXj4yMEbrUiYilFRFT13LSrAB9C8N6rKiISkfeemWOMALDlDAD3+11E7ve7mRFd6w8AeERsreWcRQQR/3u8S4hhrXUGUYzx6+srhICIlwHOuX3fAYCZEZEQEeDnr5/nJ/De9d6ZOedMRGstnXoJQHPO4zhEpNVKRICIRM/nU1XNFAB672ccEVG7nqb/AJYoeYFbMs94AAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-EVSC4acMn6qPPR5jrTFBsp"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">tuff<br>rgb(181, 158, 136)<br>b59e88</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABj0lEQVR4nJ1US7LcIAzswYz5TDmOUrlzbpFb5FaTR/m5BoRjM1nIplxvh1mwQFK3aH1uf37/Ssw4Duc8DsM0z0R0vLC99wDEzVmHlqMSs7P2laLz3nlPRNM8W2NSjGVdU4zvrZRShJtzbkIHoAGEaXo4n2IEcOsUEaUYnbXi4bzf/2FMfWwgkMQBPP8+H86/txJCqOYLKX8lqMn+pB8iV8V11p5TTsyJubUGWiI5Z2sMjkqOw6C03nFjfKXYqU4cWo8C4LyXYM751inn/bKtAHpjxCroFwoAQDtrte4kePg2zJ+zVDvFmGI81+DczQ0EYZoAyA9e4ePhPICarOn7vCzycpHAHjrUG0AIoSq+l0ep3VrebQQV9wy6lY0zAzciqqziQ+P3NgLOWQShcdT9fV3+4SxIKVVD0/cXGkkBCNOUmJ/hY/6cvwit+zuN4+6q1JVJJiLObI2tQtWZcN6v6walZPFJdzUPWllXa6wES1NWdCHGsUVac98JZHfitBhKKXlZZCOlmKwxD+evTRmA/5O15+wh7jTaAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-K9XJ5QYqhmeP7AFECypYLu"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">white_block<br>rgb(206, 202, 197)<br>cecac5</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABm0lEQVR4nJ2UwXEkUQhDJUG38w9rT1u10djzQdrDTAJtAuAhgeC/v39Ilmpm7CWB8Ox0tygAIAkmswmcBI9Kr59vO+O1V5JUIbp7znFMgiIJQMUC+aw9IKns3Zm1E85OHNuUCJxzYEsC4jh4OD8gUrETAJx5EfUeOME5c91flN6+dLXwXAHF6osJYqkork2gJJI/P997zpkBOHPw3sojgNQE+r5JkkA+rQHcX/d93yB3dnerqqseA+YcAARJAbAHJMnqK06cBIm9a8PxY8B1NQCQ1eVEKhJJpM/JkKzrosii/RwARFWEYyOcOd4gIQhQpd0VCTD24xUDveuWdpdUX/BSVUStF4kNkomv6wYBZPeZCHnHNsgg8zpVBYTEzoKsUl9NIHDsX1jU1RcClZKktN6dU+rqtt0tBO80S9rdpwB1N4B5zXm9ACLs64aEuKQAlIh09ZvxWAEAigLJK3Zib+x0V4mvn1dXVdXuOPhNDoIQpAQHyc4k6L6QzBlJduxPHNaPLepdx34fa9dXdcdZL0nxA1V1bFU9ftbAf81OPKbqd7oNAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-hGwDN5sqknhSAVENijo2U8"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">white_concrete<br>rgb(188, 188, 188)<br>bcbcbc</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAAA9ElEQVR4nKVUQXLEMAgTkP9/KF8z0IO2KuO9JC4nD2NLIIHtvm8zA9Dd7t7d3Q2Ayapy96oys+42M+afhxOajzOT6CIwM6K7+1voPwIzi4gJ2t1VJaaZPyGYcJ+s+3YvMw/0AXBJaxUrS6gbz9TqLTqAi49V8sRVN2zx0AMGhlBzijYzTjxg7xpB8nFkhcgLVXWgkq+1eNr2QA1KnE26h3FRn29jScy2JBoreNfBNi1yW8slh76n+SkBxjZJIslFA0h2QPCRaK0192jqMIfnwAMHoN9mQmSmyMjxL5Px+xmo2IiYn+h5B5xuokTEtFTNKQ48+AFUUgFYt8HEwQAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-mu6uMHeiTRYgKFxLA3NaPD"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">white_pillar<br>rgb(195, 191, 187)<br>c3bfbb</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABrUlEQVR4nJ1Tu44dVwwjKc1sE8ew4f3/Ok0A/5jjbAAHe88R6WLW7mdVqCQlPvj1778+ff70dD79/+OHpI8f/yz195d/u/vDHx9m5uW/l9lzHP261j/fvj1/ecad0Xq8xhjbtiSqQnT33ssxCIokABUF3gIHAFFle/aMk2Bmx7FNisBeC7YkIE5yGx8iGTsAwL0XUdfBCdbefZ6ULmSV9D6C6maCWCqKYxMoieTj8Tprrz0AvQe4TSGpCdRxkCSBvEEDOM7jPE6Qsz0elarqNsHeCwCBC9TeIK+34DfhA9sTI/Fdgu5uACCr5UQqEklKuDLzpiEJwb5NoEsUInEQ7lmeICEIgMWZEQEwzv2UQraBeEyyD5W6WtU9HiSekEzSfVDiOzzwDByQAfZjqwSAxGyDVLGPIgAETu5L1FWNgKJEgrbtvddUlx2SBHGtEu9XWdUNYNasxwaIsPuEhERiAEoEWkWS96uma0mso0AEnpm9txOQ63XttSWNxzPS/Q+CAIQIA8nMTtDdSGaNJDu2EyCYd8TUY297D4XjPM+np6M7MX7pkczlPH5X4878BCu2H4UZiukiAAAAAElFTkSuQmCC"/>
+            
+            
+        </div>
+    </div>
+
+    <div class="ipyplot-placeholder-div-PfpvFoobuLVwchgPVGPYxD">
+        <div id="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD-WWsdct9tRJYqVoixozzfXM"
+             class="ipyplot-content-div-PfpvFoobuLVwchgPVGPYxD">
+            <h4 style="font-size: 12px; word-wrap: break-word;">yellow_concrete<br>rgb(154, 145, 64)<br>9a9140</h4>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAIAAAD4YuoOAAABTklEQVR4nJ2UMRalOBADVTIH20NuNGelpQ0aZmO+AwIMVqukZ/78+w8YmvQcJ20l9RxLmonxJDZJAU31ZVmS1ETAfY8kePb2ZZpzAGz+bn0Q2N+uyxKwerSaidS2Ei2v5LfxJS2TtgVJy0fnGISkfagz8U8WLkBiJpJsWmz6jC4QPPSTAb5asCToOx077Dt7V9Xez35x4HMMXjJ5OtS0oEW/Yezo/SEDifdc6aFPK/vYekNup6qSfBa473uTbHXOSdTqDRxQGxXhJL8gAkt9w1wakpRMkhZ1jy1wXeezQPv0Z4Fsnn/rhHRdbp/+btm+CkgSuGVNbEdtb6QzaXOdo99CPgdJ930vYgCULJp1Y0nbK/w9g5a2NvZT/Ba1S+MRAz33xHcBe68gZpJoJmpt2347+n951u6ndbVNAgJd18m0naYYW5lgWC9iZr4K/AfkchCTSq6qLQAAAABJRU5ErkJggg=="/>
+            
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

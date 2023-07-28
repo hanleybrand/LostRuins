@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lostruins:block/concretes/light_gray_concrete_big_bricks3"
+  }
+}
