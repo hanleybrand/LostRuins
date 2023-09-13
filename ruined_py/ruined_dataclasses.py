@@ -140,10 +140,10 @@ class StylesFiveCatGenerator(JSONWizard):
                  default_palette_name: str = None, ):
         self.randompalettes = [
             [
-                PalettesCommon(common_palette_name)
+                PalettesCommon(palette=common_palette_name)
             ],
             [
-                PalettesDefault(default_palette_name)
+                PalettesDefault(factor=1.0, palette=default_palette_name)
             ],
             [PalettesBuildingBlockChoice(factor=1.0, palette=block_pal) for block_pal in block_list],
             [PalettesGlassPaneChoice(factor=1.0, palette=glass_pal) for glass_pal in glass_list],
@@ -160,9 +160,9 @@ class PalettesCommon:
     factor: float
     palette: str
 
-    def __init__(self, common_palette_name: str = None):
+    def __init__(self, palette: str = None):
         self.factor = 1.0
-        self.palette = 'lostruins:common_more_ruins' if not common_palette_name else common_palette_name
+        self.palette = 'lostruins:common_ruined' if not palette else palette
 
 
 @dataclass
@@ -176,7 +176,7 @@ class PalettesDefault:
 
     def __init__(self, factor: float = None, palette: str = None):
         self.factor = 1.0 if not factor else factor
-        self.palette = 'lostruins:default_more_ruins' if not palette else palette
+        self.palette = 'lostruins:default_ruined' if not palette else palette
 
 
 @dataclass
@@ -222,16 +222,38 @@ class PalettesSideVariantChoice:
 
 
 if __name__ == "__main__":
-    block_list = ['lostruins:magenta_concrete', 'lostruins:blue_concrete', 'lostruins:cyan_concrete',
-                  'lostruins:lime_concrete', 'lostruins:brown_concrete', 'lostruins:gray_concrete']
+    block_list = ['brown_concrete',
+                  'gray_concrete',
+                  'white_concrete',
+                  'light_gray_concrete',
+                  'black_concrete']
 
-    red_types = ['lostruins:red_concrete', 'lostruins:red_concrete_cracked',
-                 'lostruins:red_concrete_big_bricks', 'lostruins:red_concrete_big_bricks_cracked']
+    gray_types = ['lostruins:gray_concrete', 'lostruins:gray_concrete_cracked',
+                  'lostruins:gray_concrete_big_bricks', 'lostruins:gray_concrete_big_bricks_cracked']
 
-    block_name = 'lostruins:pink_concrete'
+    block_name = 'lostruins:white_concrete'
+
+
+    random_palettes_blocks_always_include = ["lostruins:ruined_bricks", "lostruins:ruined_stone",
+                                             "lostruins:ruined_stone1", "lostruins:ruined_concrete1",
+                                             "lostruins:ruined_blackstone"]
+
+    random_palettes_glass_pane_always_include = ["lostruins:glasspane_broken", "lostruins:glass_broken"]
+
+    random_palettes_variant_always_include = ["glass_side_variant_glass",
+                                              "glass_side_variant_bricks"]
+
+    now_its_ruined = StylesFiveCatGenerator(
+        random_palettes_blocks_always_include,
+        random_palettes_glass_pane_always_include,
+        random_palettes_variant_always_include,
+        common_palette_name='lostruins:common_ruined',
+        default_palette_name='lostruins:default_ruined'
+    )
+
 
     bs = BlockSingle('X', block_name)
-    rb = RandomBlocks(char='#', randomize_blocks=red_types, damaged='red_concrete_rubble')
+    rb = RandomBlocks(char='#', randomize_blocks=gray_types, damaged='gray_concrete_rubble')
 
     block_pal = BasicRuinedRandomPalette(four_block_list=[f"{block_name}_ruins", f"{block_name}_big_bricks",
                                                           f"{block_name}_ruins", f"{block_name}_ruins"],
@@ -250,15 +272,15 @@ if __name__ == "__main__":
 
     # random palettes
     rp_block_pals_always_include = ["lostruins:ruined_bricks", "lostruins:ruined_stone",
-                                            "lostruins:ruined_stone1", "lostruins:ruined_concrete1",
-                                            "lostruins:ruined_blackstone"]
+                                    "lostruins:ruined_stone1", "lostruins:ruined_concrete1",
+                                    "lostruins:ruined_blackstone"]
     rp_glass_pals_always_include = ["lostruins:glasspane_broken", "lostruins:glass_broken", "glass_pane"]
     rp_side_pals_always_include = ["glass_side_variant_glass", "glass_side_variant_bricks"]
 
     ruined = StylesFiveCatGenerator(rp_block_pals_always_include,
                                     rp_glass_pals_always_include,
                                     rp_side_pals_always_include,
-                                    'common_more_ruins',
-                                    'default_more_ruins')
+                                    'common_ruined',
+                                    'default_ruined')
 
     styles_ruined = json.dumps(json.loads(ruined.to_json()), indent=2)

@@ -23,7 +23,7 @@ from block_templates.models.block.basic_block import basic_block
 from block_templates.models.block.damaged_block import damaged_block
 from block_templates.models.block.damaged_block1 import damaged_block1
 from block_templates.models.block.damaged_block2 import damaged_block2
-from block_templates.models.block.chipped_block1 import chipped_block1
+from block_templates.models.block.chipped_block1 import chipped_block1, chipped_block1_simple
 from block_templates.models.block.chipped_block2 import chipped_block2
 from block_templates.models.block.slab import slab
 from block_templates.models.block.stairs import stairs, inner_stairs, outer_stairs
@@ -54,6 +54,9 @@ LR_ASSETS_STATIC = Path(PY_ROOT / f"assets_static/assets/lostruins")
 LR_DATA_STATIC = Path(PY_ROOT / f"assets_static/data/lostruins")
 LR_STATIC_MODELS = Path(LR_ASSETS_STATIC / f"models/block")
 LR_STATIC_TEXTURES = Path(LR_ASSETS_STATIC / f"textures/block")
+
+SRC_MAIN_ASSETS = Path(PROJECT_ROOT / 'src/main/resources/assets/lostruins')
+SRC_MAIN_DATA = Path(PROJECT_ROOT / 'src/main/resources/data/lostruins')
 
 REGISTRATION_COPYPASTA = Path(BUILT_ASSETS / "registration_copypasta.txt")
 #
@@ -105,6 +108,9 @@ make_bricks = [
 
 # don't create a randompalette for building generation
 skip_random_palette = [
+    'magenta_concrete', 'blue_concrete', 'cyan_concrete', 'lime_concrete',
+    'green_concrete', 'purple_concrete', 'pink_concrete', 'yellow_concrete',
+    'light_blue_concrete', 'red_concrete', 'orange_concrete',
     'asphalt', 'asphalt_darker', 'asphalt_lined', 'asphalt_lined1', 'blackstone_top',
     'beige_tile', 'beige_tile_2',
     'basalt_side', 'basalt_top', 'deepslate_top',
@@ -510,10 +516,10 @@ def ruin_blocks(name_list: list[str],
 
         ## models that only apply to basic blocks
         with open(os.path.join(BLOCK_MODELS_DIR, f'{b_name}_chipped1.json'), 'w') as f:
-            f.write(chipped_block1.substitute(mod_name=MOD_NAME,
-                                              side_texture=f"{b_texture_res_loc}5",
-                                              bottom_texture=f"{b_texture_res_loc}_cracked1",
-                                              top_texture=f"{b_texture_res_loc}4"))
+            f.write(chipped_block1_simple.substitute(mod_name=MOD_NAME,
+                                                     side_texture=f"{b_texture_res_loc}5",
+                                                     bottom_texture=f"{b_texture_res_loc}_cracked1",
+                                                     top_texture=f"{b_texture_res_loc}4"))
 
         with open(os.path.join(BLOCK_MODELS_DIR, f'{b_name}_chipped2.json'), 'w') as f:
             f.write(chipped_block2.substitute(mod_name=MOD_NAME,
@@ -522,10 +528,10 @@ def ruin_blocks(name_list: list[str],
                                               top_texture=f"{b_texture_res_loc}_cracked3"))
             # _big_bricks_chipped1
         with open(os.path.join(BLOCK_MODELS_DIR, f'{b_name}_big_bricks_chipped1.json'), 'w') as f:
-            f.write(chipped_block1.substitute(mod_name=MOD_NAME,
-                                              side_texture=f"{b_texture_res_loc}_big_bricks5",
-                                              bottom_texture=f"{b_texture_res_loc}_big_bricks3",
-                                              top_texture=f"{b_texture_res_loc}_big_bricks2"))
+            f.write(chipped_block1_simple.substitute(mod_name=MOD_NAME,
+                                                     side_texture=f"{b_texture_res_loc}_big_bricks5",
+                                                     bottom_texture=f"{b_texture_res_loc}_big_bricks3",
+                                                     top_texture=f"{b_texture_res_loc}_big_bricks2"))
 
         with open(os.path.join(BLOCK_MODELS_DIR, f'{b_name}_big_bricks_chipped2.json'), 'w') as f:
             f.write(chipped_block2.substitute(mod_name=MOD_NAME,
@@ -604,33 +610,62 @@ def ruin_blocks(name_list: list[str],
     random_palettes_blocks_always_include = ["lostruins:ruined_bricks", "lostruins:ruined_stone",
                                              "lostruins:ruined_stone1", "lostruins:ruined_concrete1",
                                              "lostruins:ruined_blackstone"]
-    random_palettes_glass_pane_always_include = ["lostruins:glasspane_broken", "glass_pane"]
+
+    random_palettes_glass_pane_always_include = ["lostruins:glasspane_broken", "lostruins:glass_broken"]
 
     random_palettes_variant_always_include = ["glass_side_variant_glass",
                                               "glass_side_variant_bricks"]
 
-    more_ruins = ruined_dataclasses.StylesFiveCatGenerator(
+    now_its_ruined = ruined_dataclasses.StylesFiveCatGenerator(
         random_palettes_blocks_always_include + random_palettes,
         random_palettes_glass_pane_always_include,
-        random_palettes_variant_always_include
+        random_palettes_variant_always_include,
+        common_palette_name='lostruins:common_ruined',
+        default_palette_name='lostruins:default_ruined'
     )
 
-    styles_more_ruins = json.dumps(json.loads(more_ruins.to_json()), indent=2)
+    # TODO: should this be different? if not, why not just write the same file under both names?
+    outside_is_also_ruined = ruined_dataclasses.StylesFiveCatGenerator(
+        random_palettes_blocks_always_include + random_palettes,
+        random_palettes_glass_pane_always_include,
+        random_palettes_variant_always_include,
+        common_palette_name='lostruins:common_ruined',
+        default_palette_name='lostruins:default_ruined'
+    )
 
-    with open(Path(LR_DATA_OUT_STYLES / f"more_ruins.json"), 'w') as f:
-        f.write(styles_more_ruins)
+    styles_ruined = json.dumps(json.loads(now_its_ruined.to_json()), indent=2)
+    styles_outside_ruined = json.dumps(json.loads(outside_is_also_ruined.to_json()), indent=2)
+
+    with open(Path(LR_DATA_OUT_STYLES / f"ruined.json"), 'w') as r:
+        r.write(styles_ruined)
+
+    with open(Path(LR_DATA_OUT_STYLES / f"outside_ruined.json"), 'w') as fo:
+        fo.write(styles_outside_ruined)
 
     return ruined_blocks, ruined_block_names
 
 
 if __name__ == "__main__":
+    lots_of_block_types = False
     # TODO: convert to gradle task?
+    #       I think no, because that would require running python scripts from grade, and require correct python setup
+    #       on top of setting up java/forge/gradle, and the python portion shouldn't be necessary for contributors
+    #       not working on the block models & textures
+
+    if lots_of_block_types:
+        print(f"BEGINNING RUINATION. Each base texture will generate a number of variants (ruined, cracked, etc")
+    else:
+        print(f"BEGINNING RUINATION. Block variants (ruined, cracked, chipped) collected in single _ruins block")
+
     # delete previous built assets & data
     if LR_ASSETS_OUT.exists():
+        print(f'removing previous {LR_ASSETS_OUT}')
         shutil.rmtree(LR_ASSETS_OUT)
     if LR_DATA_OUT.exists():
+        print(f'removing previous {LR_DATA_OUT}')
         shutil.rmtree(LR_DATA_OUT)
     if REGISTRATION_COPYPASTA.exists():
+        print(f'removing previous {REGISTRATION_COPYPASTA}')
         os.remove(REGISTRATION_COPYPASTA)
 
     # (re)create the build directories
@@ -639,7 +674,8 @@ if __name__ == "__main__":
     BLOCK_TEXTURES_DIR.mkdir(parents=True, exist_ok=True)
     LR_DATA_OUT_PALETTES.mkdir(parents=True, exist_ok=True)
     LR_DATA_OUT_STYLES.mkdir(parents=True, exist_ok=True)
-    # copy any non-generated
+    # copy pre-generated assets & data
+    print('copying assets_static/* -> built_resources/*')
     shutil.copytree(LR_ASSETS_STATIC, LR_ASSETS_OUT, dirs_exist_ok=True)
     shutil.copytree(LR_DATA_STATIC, LR_DATA_OUT, dirs_exist_ok=True)
     # end
@@ -650,23 +686,31 @@ if __name__ == "__main__":
 
     # begin processing blocks_to_ruin subdirectories
     # lots_of_block_types = True  will greatly increase the number of blocks registered
-    lots_of_block_types = False
+
+
     concrete_imgs, concrete_variant_names = ruin_blocks(concretes_names, concretes, 'concretes')
     conc_reg, conc_rubble = generate_registrations(sorted(concretes_names), 'concretes',
                                                    reg_all_variants=lots_of_block_types)
+    print(f"ruined & rubbled: {concrete_variant_names}")
 
     stone_imgs, stone_variant_names = ruin_blocks(stones_names, stones, 'stones')
     stone_reg, stone_rubble = generate_registrations(sorted(stones_names), 'stones',
                                                      reg_all_variants=lots_of_block_types)
+    print(f"ruined & rubbled: {stone_variant_names}")
 
     etc_imgs, etc_variant_names = ruin_blocks(etces_names, etces, 'etc')
-    etc_reg, etc_rubble = generate_registrations(sorted(etces_names), 'etc', reg_all_variants=lots_of_block_types)
+    etc_reg, etc_rubble = generate_registrations(sorted(etces_names), 'etc',
+                                                 reg_all_variants=lots_of_block_types)
+    print(f"ruined & rubbled: {etc_variant_names}")
 
     road_imgs, road_variant_names = ruin_blocks(roads_names, roads, 'roads')
-    roads_reg, road_rubble = generate_registrations(sorted(roads_names), 'roads', reg_all_variants=lots_of_block_types)
+    roads_reg, road_rubble = generate_registrations(sorted(roads_names), 'roads',
+                                                    reg_all_variants=lots_of_block_types)
+    print(f"ruined & rubbled: {etc_variant_names} ")
 
     # write the "registration_copypasta.txt" file in built_assets
     with open(REGISTRATION_COPYPASTA, 'w+') as f:
+        f.writelines(f"\t\t\t// BEGIN GENERATED REGISTRATION \n")
         f.writelines(f"\t\t\t// concrete blocks \n")
         for item in conc_reg:
             f.writelines(f"{item}")
@@ -695,3 +739,23 @@ if __name__ == "__main__":
         f.writelines(f"\n\n\t\t\t// roads rubble \n")
         for item in road_rubble:
             f.writelines(f"{item}")
+        f.writelines(f"\n\t\t\t// END GENERATED REGISTRATION \n")
+
+    if SRC_MAIN_ASSETS.exists():
+        print(f'removing previously built {SRC_MAIN_ASSETS}')
+        shutil.rmtree(SRC_MAIN_ASSETS)
+    if SRC_MAIN_DATA.exists():
+        print(f'removing previously built {SRC_MAIN_DATA}')
+        shutil.rmtree(SRC_MAIN_DATA)
+
+    print(f'copying {LR_ASSETS_OUT} -> {SRC_MAIN_ASSETS}')
+    shutil.copytree(LR_ASSETS_OUT, SRC_MAIN_ASSETS, dirs_exist_ok=True)
+    print(f'copying {LR_DATA_OUT} -> {SRC_MAIN_DATA}')
+    shutil.copytree(LR_DATA_OUT, SRC_MAIN_DATA, dirs_exist_ok=True)
+
+    print("""
+    RUINATION complete. 
+    Next steps:
+     - Manually copy registration_copypasta.txt code block to src/main/java/setup/Registration.java
+     - Run gradle build tasks
+    """)

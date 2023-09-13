@@ -1,5 +1,19 @@
 from string import Template
 
+chipped_block1_simple = Template("""
+{
+"credit": "Made by Hanleybrand with Blockbench",
+"parent": "lostruins:block/chipped1",
+"textures": {
+    "0": "block/bricks",
+    "particle": "${mod_name}:block/${side_texture}",
+    "side": "${mod_name}:block/${side_texture}",
+    "top": "${mod_name}:block/${top_texture}",
+    "bottom": "${mod_name}:block/${bottom_texture}"
+}
+}
+""")
+
 chipped_block1 = Template("""
 {
 "credit": "Made with Blockbench",
