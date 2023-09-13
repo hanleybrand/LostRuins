@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "lostruins:block/old_bricks"
+      },
+      {
+        "model": "lostruins:block/old_bricks",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/old_bricks1"
+      },
+      {
+        "model": "lostruins:block/old_bricks1",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/old_bricks2"
+      },
+      {
+        "model": "lostruins:block/old_bricks2",
+        "y": 180
+      }
+    ]
+  }
+}

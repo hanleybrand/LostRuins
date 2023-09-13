@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:asphalt_darker_ruins"
+        }
+      ],
+      "name": "asphalt_darker_ruins",
+      "rolls": 1.0
+    }
+  ]
+}

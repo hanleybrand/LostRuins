@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lostruins:block/concretes/white_concrete_big_bricks_cracked4"
+  }
+}

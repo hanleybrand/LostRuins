@@ -1,0 +1,157 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_post_broken_frame_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_post_broken_frame_mossy_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_post_broken_mossy_vines"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_broken_frame_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_broken_frame_mossy_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_broken_mossy_vines"
+        }
+      ],
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_broken_frame_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_broken_frame_mossy_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_broken_mossy_vines"
+        }
+      ],
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_alt_broken_frame_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_alt_broken_frame_mossy_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_alt_broken_mossy_vines"
+        }
+      ],
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_alt_broken_frame_vines",
+          "y": 90
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_alt_broken_frame_mossy_vines",
+          "y": 90
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_alt_broken_mossy_vines",
+          "y": 90
+        }
+      ],
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_alt_broken_frame_vines",
+          "y": 90
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_alt_broken_frame_mossy_vines",
+          "y": 90
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_alt_broken_mossy_vines",
+          "y": 90
+        }
+      ],
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_broken_frame_vines",
+          "y": 270
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_broken_frame_mossy_vines",
+          "y": 270
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_broken_mossy_vines",
+          "y": 270
+        }
+      ],
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_broken_frame_vines",
+          "y": 90
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_broken_frame_mossy_vines",
+          "y": 90
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_side_broken_mossy_vines",
+          "y": 90
+        }
+      ],
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_alt_broken_frame_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_alt_broken_frame_mossy_vines"
+        },
+        {
+          "model": "lostruins:block/glassgray1x2l_pane_vines_noside_alt_broken_mossy_vines"
+        }
+      ],
+      "when": {
+        "east": "false"
+      }
+    }
+  ]
+}

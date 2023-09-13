@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "lostruins:block/glassgray1x2l_broken_mossy"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken_mossy",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken_mossy1"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken_mossy1",
+        "y": 180
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "lostruins:block/glassgray1x2l_broken"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken1"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken1",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken2"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken2",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken3"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken3",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken4"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken4",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken5"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken5",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken6"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_broken6",
+        "y": 180
+      }
+    ]
+  }
+}

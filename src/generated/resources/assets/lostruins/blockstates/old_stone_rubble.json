@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "lostruins:block/old_stone_rubble"
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble",
+        "y": 90
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble",
+        "y": 270
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble1"
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble1",
+        "y": 90
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble1",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/old_stone_rubble1",
+        "y": 270
+      }
+    ]
+  }
+}

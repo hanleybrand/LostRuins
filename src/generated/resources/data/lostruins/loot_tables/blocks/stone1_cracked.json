@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:stone1_cracked"
+        }
+      ],
+      "name": "stone1_cracked",
+      "rolls": 1.0
+    }
+  ]
+}

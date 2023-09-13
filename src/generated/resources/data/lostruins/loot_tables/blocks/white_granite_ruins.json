@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:white_granite_ruins"
+        }
+      ],
+      "name": "white_granite_ruins",
+      "rolls": 1.0
+    }
+  ]
+}

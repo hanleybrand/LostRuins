@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:gray_wood_planks_nailed_rubble"
+        }
+      ],
+      "name": "gray_wood_planks_nailed_rubble",
+      "rolls": 1.0
+    }
+  ]
+}

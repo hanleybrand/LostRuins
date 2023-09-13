@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lostruins:block/etc/plastic_blue_big_bricks"
+  }
+}

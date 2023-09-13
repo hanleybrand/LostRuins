@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:glassgray3x2_complete"
+        }
+      ],
+      "name": "glassgray3x2_complete",
+      "rolls": 1.0
+    }
+  ]
+}

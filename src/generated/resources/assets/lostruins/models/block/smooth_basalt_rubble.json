@@ -1,0 +1,105 @@
+{
+  "parent": "minecraft:block/cube",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#txt"
+        },
+        "east": {
+          "texture": "#txt"
+        },
+        "north": {
+          "texture": "#txt"
+        },
+        "south": {
+          "texture": "#txt"
+        },
+        "up": {
+          "texture": "#txt"
+        },
+        "west": {
+          "texture": "#txt"
+        }
+      },
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        5,
+        5,
+        6
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#txt"
+        },
+        "east": {
+          "texture": "#txt"
+        },
+        "north": {
+          "texture": "#txt"
+        },
+        "south": {
+          "texture": "#txt"
+        },
+        "up": {
+          "texture": "#txt"
+        },
+        "west": {
+          "texture": "#txt"
+        }
+      },
+      "from": [
+        6,
+        0,
+        2
+      ],
+      "to": [
+        11,
+        3,
+        4
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#txt"
+        },
+        "east": {
+          "texture": "#txt"
+        },
+        "north": {
+          "texture": "#txt"
+        },
+        "south": {
+          "texture": "#txt"
+        },
+        "up": {
+          "texture": "#txt"
+        },
+        "west": {
+          "texture": "#txt"
+        }
+      },
+      "from": [
+        4,
+        0,
+        5
+      ],
+      "to": [
+        8,
+        4,
+        11
+      ]
+    }
+  ],
+  "textures": {
+    "particle": "lostruins:block/stones/smooth_basalt",
+    "txt": "lostruins:block/stones/smooth_basalt"
+  }
+}

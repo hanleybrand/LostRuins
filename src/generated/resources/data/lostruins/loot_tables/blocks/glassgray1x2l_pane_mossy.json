@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:glassgray1x2l_pane_mossy"
+        }
+      ],
+      "name": "glassgray1x2l_pane_mossy",
+      "rolls": 1.0
+    }
+  ]
+}

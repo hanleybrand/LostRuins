@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "lostruins:block/glassgray1x2l_complete"
+      },
+      {
+        "model": "lostruins:block/glassgray1x2l_complete",
+        "y": 180
+      }
+    ]
+  }
+}

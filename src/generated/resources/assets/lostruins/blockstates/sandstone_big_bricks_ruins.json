@@ -1,0 +1,90 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins1"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins1",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins2"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins2",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins3"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins3",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins4"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins4",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins5"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins5",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins6"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins6",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins7"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins7",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins8"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins8",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins9"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins9",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins10"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins10",
+        "y": 180
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins11"
+      },
+      {
+        "model": "lostruins:block/sandstone_big_bricks_ruins11",
+        "y": 180
+      }
+    ]
+  }
+}

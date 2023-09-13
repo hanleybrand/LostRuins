@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lostruins:block/stones/dripstone_block_big_bricks"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_post_complete"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_side_complete"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_noside_complete"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_side_alt_complete"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_noside_alt_complete",
+        "y": 90
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_side_alt_complete",
+        "y": 90
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_noside_complete",
+        "y": 270
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_side_complete",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "lostruins:block/glassgray1x2l_pane_complete_noside_alt_complete"
+      },
+      "when": {
+        "east": "false"
+      }
+    }
+  ]
+}

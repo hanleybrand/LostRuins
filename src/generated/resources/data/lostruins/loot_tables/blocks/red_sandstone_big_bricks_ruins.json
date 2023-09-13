@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lostruins:red_sandstone_big_bricks_ruins"
+        }
+      ],
+      "name": "red_sandstone_big_bricks_ruins",
+      "rolls": 1.0
+    }
+  ]
+}
