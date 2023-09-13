@@ -1,0 +1,12 @@
+
+{
+"credit": "Made by Hanleybrand with Blockbench",
+"parent": "lostruins:block/chipped1",
+"textures": {
+    "0": "block/bricks",
+    "particle": "lostruins:block/stones/old_stone_big_bricks5",
+    "side": "lostruins:block/stones/old_stone_big_bricks5",
+    "top": "lostruins:block/stones/old_stone_big_bricks2",
+    "bottom": "lostruins:block/stones/old_stone_big_bricks3"
+}
+}
