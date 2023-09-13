@@ -1,7 +1,0 @@
-
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "lostruins:block/stones/deepslate_big_bricks4"
-  }
-}

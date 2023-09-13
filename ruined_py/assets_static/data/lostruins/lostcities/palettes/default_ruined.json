@@ -2,97 +2,57 @@
   "palette": [
     {
       "char": "Q",
-      "block": "minecraft:quartz_block",
-      "damaged": "minecraft:iron_bars"
+      "block": "lostruins:white_granite_ruins",
+      "damaged": "lostruins:white_concrete_rubble"
     },
     {
       "char": "R",
-      "blocks": [
-        {
-          "random": 8,
-          "block": "lostruins:road1_cracked"
-        },
-        {
-          "random": 2000,
-          "block": "lostruins:road1"
-        }
-      ],
-      "damaged": "minecraft:iron_bars"
+      "__citystyle_street__" : "asphalts",
+      "block":  "lostruins:asphalt_darker_ruins",
+      "damaged": "lostruins:asphalt_darker_rubble"
     },
     {
       "char": "u",
       "block": "minecraft:smooth_stone_slab[type=double]",
-      "damaged": "minecraft:iron_bars"
+      "damaged": "lostruins:stone_rubble"
     },
     {
       "char": "S",
       "block": "minecraft:smooth_stone_slab[type=double]",
-      "damaged": "minecraft:iron_bars"
+      "damaged": "lostruins:stone_rubble"
     },
     {
       "char": "b",
-      "block": "minecraft:stone"
+      "__citystyle_streetbase__" : "asphalts",
+      "block": "lostruins:asphalt_ruins",
+      "damaged": "lostruins:asphalt_rubble"
     },
     {
       "char": "B",
-      "block": "minecraft:brick_block",
-      "damaged": "minecraft:iron_bars"
+      "__citystyle_streetvariant__" : "asphalts",
+      "block": "lostruins:old_bricks",
+      "damaged": "lostruins:bricks1_rubble"
     },
     {
       "char": "v",
-      "blocks": [
-        {
-          "random": 10,
-          "block": "minecraft:cracked_stone_bricks"
-        },
-        {
-          "random": 9,
-          "block": "minecraft:mossy_stone_bricks"
-        },
-        {
-          "random": 2000,
-          "block": "minecraft:stonebrick"
-        }
-      ],
-      "damaged": "minecraft:iron_bars"
+      "__bridgeparts_meta_key": "support",
+      "block": "lostruins:gray_concrete_ruins",
+      "damaged": "lostruins:gray_concrete_rubble"
     },
     {
       "char": "y",
-      "blocks": [
-        {
-          "random": 10,
-          "block": "minecraft:cracked_stone_bricks"
-        },
-        {
-          "random": 9,
-          "block": "minecraft:mossy_stone_bricks"
-        },
-        {
-          "random": 2000,
-          "block": "minecraft:stonebrick"
-        }
-      ],
-      "damaged": "minecraft:iron_bars"
+      "__border__": "changed to block from a random list because the _ruins block contains the variations",
+      "block": "lostruins:light_gray_concrete_ruins",
+      "damaged": "lostruins:gray_concrete_rubble"
     },
     {
       "char": "x",
-      "blocks": [
-        {
-          "random": 9,
-          "block": "minecraft:cracked_stone_bricks"
-        },
-        {
-          "random": 8,
-          "block": "minecraft:mossy_stone_bricks"
-        },
-        {
-          "random": 1000,
-          "block": "minecraft:stonebrick"
-        }
-      ]
+      "__parts_stairsnormal":  "as far as I can tell, that's where this char is used",
+      "block": "lostruins:light_gray_concrete_ruins"
     },
     {
       "char": "_",
+      "__parts_building5_x_and_stairs":  "used for trim on building5",
       "block": "minecraft:smooth_stone_slab[type=bottom]"
     },
     {
@@ -101,10 +61,12 @@
     },
     {
       "char": "w",
+      "__citystyle_wall__" : "the wall around the city borders, etc",
       "block": "minecraft:cobblestone_wall"
     },
     {
       "char": ":",
+      "__parts_buildings_tops" : "e.g. in centerX and top1",
       "block": "minecraft:iron_bars"
     },
     {

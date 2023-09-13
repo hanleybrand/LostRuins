@@ -7,7 +7,7 @@
     },
     {
       "char": "$",
-      "block": "lostruins:cyan_concrete_ruins_ruins",
+      "block": "lostruins:cobblestone_ruins",
       "damaged": "lostruins:sandstone_rubble"
     },
     {

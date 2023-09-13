@@ -1,7 +1,0 @@
-
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "lostruins:block/roads/asphalt_darker4"
-  }
-}

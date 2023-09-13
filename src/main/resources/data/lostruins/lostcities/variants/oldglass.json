@@ -1,19 +1,19 @@
 {
   "blocks": [
     {
-      "random": 2,
+      "random": 16,
       "block": "lostruins:glassgray3x2_broken"
     },
     {
-      "random": 2,
+      "random": 4,
       "block": "lostruins:glassgray3x2_broken_mossy"
     },
     {
-      "random": 2,
+      "random": 4,
       "block": "lostruins:glassgray3x2_mossy"
     },
     {
-      "random": 2,
+      "random": 4,
       "block": "lostruins:glassgray3x2_vines"
     },
     {

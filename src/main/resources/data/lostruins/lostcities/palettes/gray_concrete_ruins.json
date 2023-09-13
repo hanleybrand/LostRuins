@@ -7,7 +7,7 @@
     },
     {
       "char": "$",
-      "block": "lostruins:beige_tile_2_ruins_ruins",
+      "block": "lostruins:beige_tile_ruins",
       "damaged": "lostruins:gray_concrete_rubble"
     },
     {

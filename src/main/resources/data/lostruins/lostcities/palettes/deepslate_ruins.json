@@ -7,7 +7,7 @@
     },
     {
       "char": "$",
-      "block": "lostruins:white_granite_pillar_ruins_ruins",
+      "block": "lostruins:white_granite_pillar_ruins",
       "damaged": "lostruins:deepslate_rubble"
     },
     {

@@ -2,7 +2,7 @@
   "palette": [
     {
       "char": "+",
-      "variant": "lostruins:oldglass"
+      "variant": "lostruins:oldglasspane_broken"
     },
     {
       "char": "`",
@@ -10,7 +10,7 @@
     },
     {
       "char": "a",
-      "variant": "lostruins:oldglasspane"
+      "variant": "lostruins:oldglasspane_broken"
     }
   ]
 }
